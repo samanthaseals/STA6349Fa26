@@ -1,0 +1,387 @@
+[
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Tentative Schedule",
+    "section": "",
+    "text": "Week 1 (08/17 & 08/19)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Probability Distributions .qmd\nWednesday: Foundations of Bayesian Thinking\n\n\n\n\n\n\n\n\n\n\nWeek 2 (08/24 & 08/26)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Bayesian Thinking\nWednesday: Foundations of Bayesian Thinking\n\n\n\n\n\n\n\n\n\n\nWeek 3 (08/31 & 09/02)\n\n\n\n\n\nLectures:\n\nBeta-Binomial\nGamma-Poisson and Normal-Normal\n\n\n\n\n\n\n\n\n\n\nWeek 4 (09/07 & 09/09)\n\n\n\n\n\nLectures:\n\nBalance and Sequentiality\n\n\n\n\n\n\n\n\n\n\nWeek 5 (09/14 & 09/16)\n\n\n\n\n\nLectures:\n\nSimulation of the Posterior\nStatistical Inference in the Bayesian Framework\n\nEES Project:\n\nWe receive data and research objectives from collaborators this week\n\n\n\n\n\n\n\n\n\n\nWeek 6 (09/21 & 09/23)\n\n\n\n\n\nLectures:\n\nBayesian General Linear Models\nEvaluating Regression Models\n\nEES Project:\n\nGet data imported to R\nBegin “project notebook”\n\nLink research objectives to variable names in dataset\nBegin recording questions for collaborator\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 (09/28 & 09/30)\n\n\n\n\n\nLectures:\n\nBayesian Generalized Linear Models\n\nEES Project:\n\nNumerical and graphical summaries of data\n\n\n\n\n\n\n\n\n\n\nWeek 8 (10/05 & 10/07)\n\n\n\n\n\nIn Class Project 1:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, they will formally introduce you to the project.\nYou will also discuss their research objectives and your initial thoughts on data analysis.\n\nUse this meeting to verify that you understand what questions you should be answering with a statistical model.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 (10/12 & 10/14)\n\n\n\n\n\nTake-home midterm opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss their project and your initial thoughts on data analysis.\n\n\n\n\n\n\n\n\n\n\nWeek 10 (10/19 & 10/21)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models: Random Intercepts\nBayesian Hierarchical Models: Random Slopes\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 11 (10/26 & 10/28)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models:\nCommunicating Results and Writing Statistical Methods\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 12 (11/02 & 11/04)\n\n\n\n\n\nEES Project:\n\nIndividual meetings with Dr. Seals\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, you will present your analysis results to your collaborator.\n\nUse this meeting to communicate the model results in their language.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 (11/09 & 11/11)\n\n\n\n\n\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nWeek 14 (11/16 & 11/18)\n\n\n\n\n\nIn Class Project 2:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nAny necessary updates to your analysis must be completed and sent to your collaborator this week.\nCommunicate with your collaborator to schedule a meeting for the week after Thanksgiving (week of 11/30)\n\n\n\n\n\n\n\n\n\n\nWeek 15 (11/30 & 12/02)\n\n\n\n\n\nTake-home final opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nExam Week\n\n\n\n\n\nEES Project:\n\nCollaborative final paper due."
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Abbreviated Syllabus",
+    "section": "",
+    "text": "Note: this is an abbreviated syllabus. The full syllabus is available through Classmate and/or Canvas.\n\nInstructor Information\n\nDr. Samantha Seals\nOffice: 4/344\n\n\n\nMeeting Times and Location\n\nMW 6:00 pm–8:40 pm\nPhysical classroom: 11/121\nZoom classroom: see Canvas for link\n\n\n\nOffice Hours\n\nMonday: 2:00-4:00 pm\nWednesday: 2:00-4:00 pm\nOther times by appointment\n\n\n\nGrading and Evaluation\nThe course grade will be determined as follows:\n\nAssignments (25%): Every module will finish with an assignment to demonstrate the knowledge gained. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nMidterm (25%): The midterm will be a take home midterm. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nProject (25%): Students will complete a project which will be presented in class the last week of classes.\nFinal Exam (25%): The final exam will be a take home final. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\n\n\n\nLate Policy\nAssigments have due dates, however, the dropboxes will not close until the end of the semester. All students are automatically granted “extensions” without question.\nNote that if there is not a submission when I go to grade (after the initial deadline), I will assign a zero (0) and request that you submit the assignment when you are able to. This is only for record keeping purposes. There is no penalty for submitting late and a full grade will be given upon review of your submission.\nExtensions are not available for the project, midterm, or final exam."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Applied Bayesian Analysis - Fall 2026",
+    "section": "",
+    "text": "Welcome to Applied Bayesian Analysis for Fall 2026!\nThe initial development of this course was supported by the 2023 BATS program, funded by NSF IUSE: EHR program with award numbers 2215879, 2215920, and 2215709."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#introduction",
+    "href": "lectures/01-1-probability.html#introduction",
+    "title": "Overview of Probability Distributions",
+    "section": "Introduction",
+    "text": "Introduction\n\nToday we will review probability distributions.\n\nBinomial\nPoisson\nUniform\nNormal\nGamma\nBeta"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#basic-definitions",
+    "href": "lectures/01-1-probability.html#basic-definitions",
+    "title": "Overview of Probability Distributions",
+    "section": "Basic Definitions",
+    "text": "Basic Definitions\n\nDiscrete random variable: a variable that can assume only a finite or countably infinite number of distinct values.\nProbability distribution of a random variable: collection of probabilities for each value of the random variable.\nNotation:\n\nUppercase letter (e.g., Y) denotes a random variable.\nLowercase letter (e.g., y) denotes a particular value that the random variable may assume.\n\nThe specific observed value, y, is not random."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#probability-distributions-for-discrete-rv",
+    "href": "lectures/01-1-probability.html#probability-distributions-for-discrete-rv",
+    "title": "Overview of Probability Distributions",
+    "section": "Probability Distributions for Discrete RV",
+    "text": "Probability Distributions for Discrete RV\n\nProbability function for \\boldsymbol Y: sum of the the probabilities of all sample points in S that are assigned the value y\n\nP[Y = y] = p(y): the probability that Y takes on the value y.\n\nProbability distribution for \\boldsymbol Y: a formula, table, or graph that provides p(y) \\ \\forall \\ y.\nTheorem: For any discrete probability distribution, the following must be true:\n\n0 \\le p(y) \\le 1 \\  \\forall \\ y\n\\sum_y p(y) = 1 \\ \\forall \\ p(y) &gt; 0."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#expected-values-for-discrete-rv",
+    "href": "lectures/01-1-probability.html#expected-values-for-discrete-rv",
+    "title": "Overview of Probability Distributions",
+    "section": "Expected Values for Discrete RV",
+    "text": "Expected Values for Discrete RV\n\nExpected value: Let Y be a discrete random variable with probability function p(y). Then the expected value of Y, E[Y], is defined to be\n\nE(Y) = \\sum_{y} y p(y)\n\nWhen p(y) is an accurate characterization of the population frequency distribution, then the expected value is the population mean.\n\nE[Y] = \\mu"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#expected-values-for-discrete-rv-1",
+    "href": "lectures/01-1-probability.html#expected-values-for-discrete-rv-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Expected Values for Discrete RV",
+    "text": "Expected Values for Discrete RV\n\nVariance: if Y is a random variable with mean E[Y] = \\mu, the variance of a random variable Y is defined to be the expected value of (Y-\\mu)^2.\n\nV[Y] = E\\left[ (Y-\\mu)^2 \\right]\n\nIf p(y) is an accurate characterization of the population frequency distribution, then V(Y) is the population variance,\n\nV[Y] = \\sigma^2\n\nStandard deviation: the positive square root of V[Y]."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#expected-values-for-discrete-rv-2",
+    "href": "lectures/01-1-probability.html#expected-values-for-discrete-rv-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Expected Values for Discrete RV",
+    "text": "Expected Values for Discrete RV\n\nThere is an alternative (and easier) way to calculate the variance manually,\nTheorem: Let Y be a discrete random variable with probability function p(y) and mean E[Y] = \\mu. Then,\n\nV[Y] = \\sigma^2 = E\\left[(Y-\\mu)^2\\right] = E\\left[Y^2\\right] - \\mu^2"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nBinomial experiment:\n\nThe experiment consists of a fixed number, n, of identical trials.\nEach trial results in one of two outcomes: success (S) or failure (F).\nThe probability of success on a single trial is equal to some value p and remains the same from trial to trial.\n\nThe probability of failure is equal to q = (1-p).\n\nThe trials are independent.\nThe random variable of interest is Y, the number of successes observed during the n trials."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution-1",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nA random variable Y is said to have a binomial distribution based on n trials with success probability p iff\n\np(y) = {n \\choose y}p^y q^{n-y}, \\text{ where } y = 0, 1, 2, ..., n, \\text{ and } 0 \\le p \\le1\n\nLet Y be a binomial random variable based on n trials and success probability p. Then\n\nE[Y] = \\mu = np \\ \\ \\ \\text{and} \\ \\ \\ V[Y] = \\sigma^2 = npq\n\nSee Wackerly pg. 107 for derivation."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution-2",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nWe can use R to find information related to the binomial distribution.\n\nP[X = x]: dbinom(x, size, prob)\nP[X \\le x]: pbinom(q, size, prob)\nP[X &gt; x]: pbinom(q, size, prob, lower.tail = FALSE)\n\nIn the functions,\n\nx or q is the value of X we are interested in\nsize is the sample size (n)\nprob is the probability of success, \\pi\nlower.tail has two options:\n\nTRUE (default) returns P[X \\le x]\nFALSE returns P[X &gt; x]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution-3",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution-3",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nThe manufacturer of a dairy drink wishes to compare a new formula (B) with that of the standard formula (A). Each of four judges perform a blinded taste test and report which glass he or she most enjoyed. Suppose that the two formulas are equally attractive.\nUse R to find:\n\nP[X = 2]\nP[X &gt; 2]\nP[X &lt; 4]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution-4",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution-4",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nThe manufacturer of a dairy drink wishes to compare a new formula (B) with that of the standard formula (A). Each of four judges perform a blinded taste test and report which glass he or she most enjoyed. Suppose that the two formulas are equally attractive.\nUse R to find:\n\nP[X = 2]\n\n\n\ndbinom(x = 2, size = 4, prob = 0.5)\n\n[1] 0.375"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution-5",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution-5",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nThe manufacturer of a dairy drink wishes to compare a new formula (B) with that of the standard formula (A). Each of four judges perform a blinded taste test and report which glass he or she most enjoyed. Suppose that the two formulas are equally attractive.\nUse R to find:\n\nP[X &gt; 2]\n\n\n\npbinom(q = 2, size = 4, prob = 0.5, lower.tail = FALSE)\n\n[1] 0.3125"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#binomial-probability-distribution-6",
+    "href": "lectures/01-1-probability.html#binomial-probability-distribution-6",
+    "title": "Overview of Probability Distributions",
+    "section": "Binomial Probability Distribution",
+    "text": "Binomial Probability Distribution\n\nThe manufacturer of a dairy drink wishes to compare a new formula (B) with that of the standard formula (A). Each of four judges perform a blinded taste test and report which glass he or she most enjoyed. Suppose that the two formulas are equally attractive.\nUse R to find:\n\nP[X &lt; 4] = P[X \\le 3]\n\n\n\npbinom(q = 3, size = 4, prob = 0.5)\n\n[1] 0.9375"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#poisson-probability-distribution",
+    "href": "lectures/01-1-probability.html#poisson-probability-distribution",
+    "title": "Overview of Probability Distributions",
+    "section": "Poisson Probability Distribution",
+    "text": "Poisson Probability Distribution\n\nWe often use the Poisson distribution to model count data.\nA random variable Y is said to have a Poisson probability distribution iff\n\np(y) = \\frac{\\lambda^y}{y!}e^{-\\lambda}, \\text{ where } y=0,1,2,..., \\text{ and } \\lambda &gt; 0\n\nIf Y is a random variable with a Poisson distribution with parameter \\lambda, then\n\nE[Y] = \\mu = \\lambda \\text{ and } V[Y] = \\sigma^2 = \\lambda\n\nSee Wackerly pg. 134 for derivation."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#poisson-probability-distribution-1",
+    "href": "lectures/01-1-probability.html#poisson-probability-distribution-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Poisson Probability Distribution",
+    "text": "Poisson Probability Distribution\n\nWe can use R to find information related to the Poisson distribution.\n\nP[X = x]: dpois(x, lambda)\nP[X \\le x]: ppois(q, lambda)\nP[X &gt; x]: ppois(q, lambda, lower.tail = FALSE)\n\nIn the functions:\n\nx or q is the value of X we are interested in\nlambda is the rate of occurrence\nlower.tail has two options:\n\nTRUE (default) returns P[X \\le x]\nFALSE returns P[X &gt; x]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#poisson-probability-distribution-2",
+    "href": "lectures/01-1-probability.html#poisson-probability-distribution-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Poisson Probability Distribution",
+    "text": "Poisson Probability Distribution\n\nCustomers arrive at a checkout counter in a department store according to a Poisson distribution at an average of seven per hour. Use R to find the following probabilities.\n\nNo more than three customers arrive.\nAt least two customers arrive.\nExactly five customers arrive."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#poisson-probability-distribution-3",
+    "href": "lectures/01-1-probability.html#poisson-probability-distribution-3",
+    "title": "Overview of Probability Distributions",
+    "section": "Poisson Probability Distribution",
+    "text": "Poisson Probability Distribution\n\nCustomers arrive at a checkout counter in a department store according to a Poisson distribution at an average of seven per hour. Use R to find the following probabilities.\n\nNo more than three customers arrive.\n\n\n\nppois(q = 3, lambda = 7)\n\n[1] 0.08176542"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#poisson-probability-distribution-4",
+    "href": "lectures/01-1-probability.html#poisson-probability-distribution-4",
+    "title": "Overview of Probability Distributions",
+    "section": "Poisson Probability Distribution",
+    "text": "Poisson Probability Distribution\n\nCustomers arrive at a checkout counter in a department store according to a Poisson distribution at an average of seven per hour. Use R to find the following probabilities.\n\nAt least two customers arrive.\n\n\n\nppois(q = 1, lambda = 7, lower.tail = FALSE)\n\n[1] 0.9927049"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#poisson-probability-distribution-5",
+    "href": "lectures/01-1-probability.html#poisson-probability-distribution-5",
+    "title": "Overview of Probability Distributions",
+    "section": "Poisson Probability Distribution",
+    "text": "Poisson Probability Distribution\n\nCustomers arrive at a checkout counter in a department store according to a Poisson distribution at an average of seven per hour. Use R to find the following probabilities.\n\nExactly five customers arrive.\n\n\n\ndpois(x = 5, lambda = 7)\n\n[1] 0.1277167"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#probability-distributions-for-continuous-rv",
+    "href": "lectures/01-1-probability.html#probability-distributions-for-continuous-rv",
+    "title": "Overview of Probability Distributions",
+    "section": "Probability Distributions for Continuous RV",
+    "text": "Probability Distributions for Continuous RV\n\nTheorem: If a continuous random variable Y has density function f(y) and a &lt; b, then the probability that Y falls in the interval [a, b] is\n\nP[a \\le Y \\le b] = \\int_a^b f(y) dy."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#expected-values-for-continuous-rv",
+    "href": "lectures/01-1-probability.html#expected-values-for-continuous-rv",
+    "title": "Overview of Probability Distributions",
+    "section": "Expected Values for Continuous RV",
+    "text": "Expected Values for Continuous RV\n\nExpected value: The expected value of a continuous variable Y is\n\nE[Y] = \\int_{-\\infty}^{\\infty} y f(y) \\ dy\n\nThis is the continuous version of the expected value for a discrete random variable,\n\nE[Y] = \\sum_y y p(y)"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#expected-values-for-continuous-rv-1",
+    "href": "lectures/01-1-probability.html#expected-values-for-continuous-rv-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Expected Values for Continuous RV",
+    "text": "Expected Values for Continuous RV\n\nTheorem: Let g(Y) be a function of Y; then the expected value of g(Y) is given by\n\nE\\left[ g(Y) \\right] = \\int_{-\\infty}^{\\infty} g(y) f(y) \\ dy\n\nTheorem: Let c be a constant and let g(Y), g_1(Y), g_2(Y), …, g_k(Y) be functions of a continuous random variable, Y. Then the following results hold:\n\nE[c] = c\nE\\left[cg(Y)] = cE[g(Y)\\right]\nE\\left[g_1(Y)+...+g_k(Y)\\right] = E\\left[ g_1(Y) \\right] + ... + E\\left[ g_k(Y) \\right]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nUniform Distribution"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution-1",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nA random variable Y is said to have a uniform distribution iff\n\nf(y) = \\frac{1}{\\theta_2 - \\theta_1}, \\ \\theta_1 \\le y \\le \\theta_2\n\nIf \\theta_1 &lt; \\theta_2 and Y is a uniformly distributed r.v. on the interval (\\theta_1, \\theta_2), then\n\nE[Y] = \\mu = \\frac{\\theta_1+\\theta_2}{2} \\ \\ \\ \\text{and} \\ \\ \\ V[Y] = \\sigma^2 = \\frac{(\\theta_2-\\theta_1)^2}{12}\n\nSee Wackerly pg. 176 for derivation."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution-2",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nWe can use R to find information related to the uniform distribution:\n\nP[X \\le x]: punif(q, min, max)\nP[X \\ge x]: punif(q, min, max, lower.tail = FALSE)\n\nIn the functions:\n\nq is the value of X we are interested in\nmin is the lower bound of the distribution\nmax is the upper bound of the distribution\nlower.tail has two options:\n\nTRUE (default) returns P[X \\le x]\nFALSE returns P[X \\ge x]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution-3",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution-3",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nAn industrial psychologist has determined that it takes a worker between 9 and 15 minutes to complete a task on an automobile assembly line. If the time to complete the task is uniformly distributed over the interval 9 \\le y \\le 15, then determine the following probabilities:\n\nA worker takes fewer than 13 minutes.\nA worker takes at least 11 minutes.\nA worker takes between 14 and 15 minutes."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution-4",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution-4",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nAn industrial psychologist has determined that it takes a worker between 9 and 15 minutes to complete a task on an automobile assembly line. If the time to complete the task is uniformly distributed over the interval 9 \\le y \\le 15, then determine the following probabilities:\n\nA worker takes fewer than 13 minutes.\n\n\n\npunif(13, 9, 15)\n\n[1] 0.6666667"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution-5",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution-5",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nAn industrial psychologist has determined that it takes a worker between 9 and 15 minutes to complete a task on an automobile assembly line. If the time to complete the task is uniformly distributed over the interval 9 \\le y \\le 15, then determine the following probabilities:\n\nA worker takes at least 11 minutes.\n\n\n\npunif(11, 9, 15, lower.tail = FALSE)\n\n[1] 0.6666667"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#uniform-probability-distribution-6",
+    "href": "lectures/01-1-probability.html#uniform-probability-distribution-6",
+    "title": "Overview of Probability Distributions",
+    "section": "Uniform Probability Distribution",
+    "text": "Uniform Probability Distribution\n\nAn industrial psychologist has determined that it takes a worker between 9 and 15 minutes to complete a task on an automobile assembly line. If the time to complete the task is uniformly distributed over the interval 9 \\le y \\le 15, then determine the following probabilities:\n\nA worker takes between 14 and 15 minutes.\n\n\n\npunif(15, 9, 15) - punif(14, 9, 15)\n\n[1] 0.1666667"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nNormal Distribution"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-1",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nA random variable Y is said to have a normal distribution iff, for \\sigma &gt; 0 and -\\infty &lt; \\mu &lt; \\infty,\n\nf(y) = \\frac{1}{\\sigma \\sqrt{2\\pi}} e^{-(y-\\mu)^2/(2\\sigma^2)}\n\nIf Y is a random variable normally distributed with parameters \\mu and \\sigma, then\n\nE[Y] = \\mu  \\ \\ \\ \\text{and} \\ \\ \\ V[Y] = \\sigma^2"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-2",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nWe can use R to find information related to the normal distribution.\n\nP[X \\le x]: pnorm(q, mean, sd)\nP[X \\ge x]: pnorm(q, mean, sd, lower.tail = FALSE)\n\nIn the functions:\n\nq is the value of X we are interested in\nmean is the population mean \\mu\nsd is the standard deviation \\sigma\nlower.tail has two options:\n\nTRUE (default) returns P[X \\le x]\nFALSE returns P[X \\ge x]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-3",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-3",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nA random variable Y is said to have a standard normal distribution iff\n\nY \\sim N(\\mu=0,\\sigma=1)\n\nThe normal distribution is then simplified to\n\nf(y) = \\frac{1}{\\sqrt{2\\pi}} e^{-y^2/2}\n\nNote that in all cases of the normal distribution, we assume -\\infty &lt; y &lt; \\infty."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-4",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-4",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nWhen using pnorm(), the default values for mean and sd are 0 and 1.\nThus, if we have the standard normal our R functions simplify to:\n\nP[Z \\le z]: pnorm(z)\nP[Z \\ge z]: pnorm(z, lower.tail = FALSE)\n\nIn the functions:\n\nq is the z-score value of interest\nlower.tail = TRUE returns P[Z \\le z]\nlower.tail = FALSE returns P[Z \\ge z]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-5",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-5",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nA geneticist working for a seed company develops a new carrot for growing in heavy clay soil. After measuring 5000 of these carrots, it can be said that the carrot length, Y, is normally distributed with \\mu = 11.5 cm and \\sigma = 1.15 cm.\n\nWhat is the probability that a carrot will be between 10 and 13 cm?\nWhat is the probability that a carrot will be less than 9 cm?\nWhat is the probability that a carrot will be 12 cm or larger?"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-6",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-6",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nA geneticist working for a seed company develops a new carrot for growing in heavy clay soil. After measuring 5000 of these carrots, it can be said that the carrot length, Y, is normally distributed with \\mu = 11.5 cm and \\sigma = 1.15 cm.\n\nWhat is the probability that a carrot will be between 10 and 13 cm?\n\n\n\npnorm(q = 13, mean = 11.5, sd = 1.15) - pnorm(q = 10, mean = 11.5, sd = 1.15)\n\n[1] 0.807885"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-7",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-7",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nA geneticist working for a seed company develops a new carrot for growing in heavy clay soil. After measuring 5000 of these carrots, it can be said that the carrot length, Y, is normally distributed with \\mu = 11.5 cm and \\sigma = 1.15 cm.\n\nWhat is the probability that a carrot will be less than 9 cm?\n\n\n\npnorm(q = 9, mean = 11.5, sd = 1.15)\n\n[1] 0.01485583"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#normal-probability-distribution-8",
+    "href": "lectures/01-1-probability.html#normal-probability-distribution-8",
+    "title": "Overview of Probability Distributions",
+    "section": "Normal Probability Distribution",
+    "text": "Normal Probability Distribution\n\nA geneticist working for a seed company develops a new carrot for growing in heavy clay soil. After measuring 5000 of these carrots, it can be said that the carrot length, Y, is normally distributed with \\mu = 11.5 cm and \\sigma = 1.15 cm.\n\nWhat is the probability that a carrot will be 12 cm or larger?\n\n\n\npnorm(q = 12, mean = 11.5, sd = 1.15, lower.tail = FALSE)\n\n[1] 0.3318601"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#gamma-probability-distribution",
+    "href": "lectures/01-1-probability.html#gamma-probability-distribution",
+    "title": "Overview of Probability Distributions",
+    "section": "Gamma Probability Distribution",
+    "text": "Gamma Probability Distribution\n\nGamma Distribution"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#gamma-probability-distribution-1",
+    "href": "lectures/01-1-probability.html#gamma-probability-distribution-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Gamma Probability Distribution",
+    "text": "Gamma Probability Distribution\n\nA random variable Y is said to have a gamma distribution with parameters \\alpha &gt; 0 and \\beta &gt; 0 iff,\n\nf(y) = \\frac{y^{\\alpha-1} e^{-y/\\beta}}{\\beta^{\\alpha} \\Gamma(\\alpha)}, \\ 0 \\le y &lt; \\infty\n\nNote that \\Gamma(\\alpha) = \\int_{0}^{\\infty} y^{\\alpha-1} e^{-y} \\ dy.\nIf Y has a gamma distribution with parameters \\alpha and \\beta, then\n\nE[Y] = \\mu = \\alpha\\beta \\ \\ \\ \\text{and} \\ \\ \\ V[Y] = \\sigma^2  = \\alpha\\beta^2\n\nSee Wackerly pg. 187 for derivation."
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#gamma-probability-distribution-2",
+    "href": "lectures/01-1-probability.html#gamma-probability-distribution-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Gamma Probability Distribution",
+    "text": "Gamma Probability Distribution\n\nWe can use R to find information related to the Gamma distribution.\n\nP[X \\le x]: pgamma(q, shape, rate)\n\nP[X \\ge x]: pgamma(q, shape, rate, lower.tail = FALSE)\n\nIn the functions:\n\nq is the value of X we are interested in\n\nshape is the shape parameter, \\alpha\n\nscale is the scale parameter, \\beta\n\nAlternatively, can parameterize with rate = 1/\\beta, rate = 1 / scale\n\nlower.tail has two options:\n\nTRUE (default) returns P[X \\le x]\n\nFALSE returns P[X \\ge x]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#gamma-probability-distribution-3",
+    "href": "lectures/01-1-probability.html#gamma-probability-distribution-3",
+    "title": "Overview of Probability Distributions",
+    "section": "Gamma Probability Distribution",
+    "text": "Gamma Probability Distribution\n\nAnnual incomes for heads of household in an affluent section of a city have approximately a gamma distribution with \\alpha=32 and \\beta=2500.\n\nWhat proportion have incomes in excess of $100,000?\nWhat proportion have incomes between $75,000 and $150,000?"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#gamma-probability-distribution-4",
+    "href": "lectures/01-1-probability.html#gamma-probability-distribution-4",
+    "title": "Overview of Probability Distributions",
+    "section": "Gamma Probability Distribution",
+    "text": "Gamma Probability Distribution\n\nAnnual incomes for heads of household in a section of a city have approximately a gamma distribution with \\alpha=32 and \\beta=2500.\n\nWhat proportion have incomes in excess of $100,000?\n\n\n\npgamma(q = 100000, shape = 32, scale = 2500, lower.tail = FALSE)\n\n[1] 0.08552057"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#gamma-probability-distribution-5",
+    "href": "lectures/01-1-probability.html#gamma-probability-distribution-5",
+    "title": "Overview of Probability Distributions",
+    "section": "Gamma Probability Distribution",
+    "text": "Gamma Probability Distribution\n\nAnnual incomes for heads of household in an affluent section of a city have approximately a gamma distribution with \\alpha=32 and \\beta=2500.\n\nWhat proportion have incomes between $75,000 and $150,000?\n\n\n\n\npgamma(q = 150000, shape = 32, scale = 2500) - pgamma(q = 75000, shape = 32, scale = 2500)\n\n[1] 0.6186147"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nBeta Distribution"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution-1",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution-1",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nA random variable Y is said to have a beta distribution with parameters \\alpha &gt; 0 and \\beta &gt; 0 iff,\n\nf(y) = \\frac{y^{\\alpha-1}(1-y)^{\\beta-1}}{B(\\alpha,\\beta)}, \\ 0 \\le y \\le 1 \n\nNote: B(\\alpha,\\beta) = \\int_0^1 y^{\\alpha-1}(1-y)^{\\beta-1} \\ dy = \\frac{\\Gamma(\\alpha) \\Gamma(\\beta)}{\\Gamma(\\alpha+\\beta)}.\nIf Y has a beta distribution with parameters \\alpha &gt; 0 and \\beta &gt; 0, then\n\nE[Y] = \\mu = \\frac{\\alpha}{\\alpha+\\beta} \\ \\ \\ \\text{and} \\ \\ \\ V[Y] = \\sigma^2  = \\frac{\\alpha\\beta}{(\\alpha+\\beta)^2(\\alpha+\\beta+1)}"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution-2",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution-2",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nWe can use R to find information related to the Beta distribution.\n\nP[X \\le x]: pbeta(q, shape1, shape2)\n\nP[X \\ge x]: pbeta(q, shape1, shape2, lower.tail = FALSE)\n\nIn the functions:\n\nq is the value of X we are interested in – must be in [0, 1]!\nshape1 is the first shape parameter, \\alpha\n\nshape2 is the second shape parameter, \\beta\n\nlower.tail has two options:\n\nTRUE (default) returns P[X \\le x]\n\nFALSE returns P[X \\ge x]"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution-3",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution-3",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nIn a survey of cupcake preferences, 8 respondents liked the new cupcake flavor and 2 did not. We will model the proportion of all respondents who would like the cupcake flavor using a Beta distribution with \\alpha = 8 and \\beta = 2. What is the probability that:\n\nfewer than 60% of respondents like the new flavor?\nmore than 90% of respondents like the new flavor?\nsomewhere between 70% and 90% of respondents like the new flavor?"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution-4",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution-4",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nIn a survey of cupcake preferences, 8 respondents liked the new cupcake flavor and 2 did not. We will model the proportion of all respondents who would like the cupcake flavor using a Beta distribution with \\alpha = 8 and \\beta = 2. What is the probability that:\n\nfewer than 60% of respondents like the new flavor?\n\n\n\npbeta(q = 0.6, shape1 = 8, shape2 = 2)\n\n[1] 0.07054387"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution-5",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution-5",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nIn a survey of cupcake preferences, 8 respondents liked the new cupcake flavor and 2 did not. We will model the proportion of all respondents who would like the cupcake flavor using a Beta distribution with \\alpha = 8 and \\beta = 2. What is the probability that:\n\nmore than 90% of respondents like the new flavor?\n\n\n\npbeta(q = 0.9, shape1 = 8, shape2 = 2, lower.tail = FALSE)\n\n[1] 0.225159"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#beta-probability-distribution-6",
+    "href": "lectures/01-1-probability.html#beta-probability-distribution-6",
+    "title": "Overview of Probability Distributions",
+    "section": "Beta Probability Distribution",
+    "text": "Beta Probability Distribution\n\nIn a survey of cupcake preferences, 8 respondents liked the new cupcake flavor and 2 did not. We will model the proportion of all respondents who would like the cupcake flavor using a Beta distribution with \\alpha = 8 and \\beta = 2. What is the probability that:\n\nsomewhere between 70% and 90% of respondents like the new flavor?\n\n\n\npbeta(q = 0.9, shape1 = 8, shape2 = 2) - pbeta(q = 0.7, shape1 = 8, shape2 = 2)\n\n[1] 0.5788377"
+  },
+  {
+    "objectID": "lectures/01-1-probability.html#wrap-up",
+    "href": "lectures/01-1-probability.html#wrap-up",
+    "title": "Overview of Probability Distributions",
+    "section": "Wrap Up",
+    "text": "Wrap Up\n\nWe reviewed basic probability rules and distributions today.\n\nWe are setting up for our next lecture(s).\n\nWednesday: Thinking Like a Bayesian"
+  }
+]
