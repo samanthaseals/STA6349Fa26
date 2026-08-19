@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://samanthaseals.github.io/STA6349Fa26/schedule.html</loc>
-    <lastmod>2026-08-17T05:00:27.859Z</lastmod>
+    <lastmod>2026-08-19T14:56:15.769Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthaseals.github.io/STA6349Fa26/lectures/01-2-bayes-thinking.html</loc>
+    <lastmod>2026-08-19T14:29:58.767Z</lastmod>
   </url>
   <url>
     <loc>https://samanthaseals.github.io/STA6349Fa26/syllabus.html</loc>
@@ -15,5 +19,9 @@
   <url>
     <loc>https://samanthaseals.github.io/STA6349Fa26/lectures/01-1-probability.html</loc>
     <lastmod>2026-08-17T04:49:16.284Z</lastmod>
+  </url>
+  <url>
+    <loc>https://samanthaseals.github.io/STA6349Fa26/lectures/02-1-bayes-model.html</loc>
+    <lastmod>2026-08-19T14:33:28.686Z</lastmod>
   </url>
 </urlset>
