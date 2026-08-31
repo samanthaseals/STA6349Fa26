@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Tentative Schedule",
     "section": "",
-    "text": "Week 1 (08/17 & 08/19)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Probability Distributions .qmd\nWednesday: Thinking Like a Bayesian (Part 1) .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 2 (08/24 & 08/26)\n\n\n\n\n\nLectures:\n\nMonday: Thinking Like a Bayesian (Part 2) .qmd\nWednesday: Beta-Binomial Model .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 3 (08/31 & 09/02)\n\n\n\n\n\nLectures:\n\nBeta-Binomial\nGamma-Poisson and Normal-Normal\n\n\n\n\n\n\n\n\n\n\nWeek 4 (09/07 & 09/09)\n\n\n\n\n\nLectures:\n\nBalance and Sequentiality\n\n\n\n\n\n\n\n\n\n\nWeek 5 (09/14 & 09/16)\n\n\n\n\n\nLectures:\n\nSimulation of the Posterior\nStatistical Inference in the Bayesian Framework\n\nEES Project:\n\nWe receive data and research objectives from collaborators this week\n\n\n\n\n\n\n\n\n\n\nWeek 6 (09/21 & 09/23)\n\n\n\n\n\nLectures:\n\nBayesian General Linear Models\nEvaluating Regression Models\n\nEES Project:\n\nGet data imported to R\nBegin “project notebook”\n\nLink research objectives to variable names in dataset\nBegin recording questions for collaborator\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 (09/28 & 09/30)\n\n\n\n\n\nLectures:\n\nBayesian Generalized Linear Models\n\nEES Project:\n\nNumerical and graphical summaries of data\n\n\n\n\n\n\n\n\n\n\nWeek 8 (10/05 & 10/07)\n\n\n\n\n\nIn Class Project 1:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, they will formally introduce you to the project.\nYou will also discuss their research objectives and your initial thoughts on data analysis.\n\nUse this meeting to verify that you understand what questions you should be answering with a statistical model.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 (10/12 & 10/14)\n\n\n\n\n\nTake-home midterm opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss their project and your initial thoughts on data analysis.\n\n\n\n\n\n\n\n\n\n\nWeek 10 (10/19 & 10/21)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models: Random Intercepts\nBayesian Hierarchical Models: Random Slopes\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 11 (10/26 & 10/28)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models:\nCommunicating Results and Writing Statistical Methods\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 12 (11/02 & 11/04)\n\n\n\n\n\nEES Project:\n\nIndividual meetings with Dr. Seals\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, you will present your analysis results to your collaborator.\n\nUse this meeting to communicate the model results in their language.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 (11/09 & 11/11)\n\n\n\n\n\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nWeek 14 (11/16 & 11/18)\n\n\n\n\n\nIn Class Project 2:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nAny necessary updates to your analysis must be completed and sent to your collaborator this week.\nCommunicate with your collaborator to schedule a meeting for the week after Thanksgiving (week of 11/30)\n\n\n\n\n\n\n\n\n\n\nWeek 15 (11/30 & 12/02)\n\n\n\n\n\nTake-home final opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nExam Week\n\n\n\n\n\nEES Project:\n\nCollaborative final paper due."
+    "text": "Week 1 (08/17 & 08/19)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Probability Distributions .qmd\nWednesday: Thinking Like a Bayesian (Part 1) .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 2 (08/24 & 08/26)\n\n\n\n\n\nLectures:\n\nMonday: Thinking Like a Bayesian (Part 2) .qmd\nWednesday: Beta-Binomial Model .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 3 (08/31 & 09/02)\n\n\n\n\n\nLectures:\n\nMonday: Conjugate Families .qmd\nWednesday: Balance and Sequentiality\n\n\n\n\n\n\n\n\n\n\nWeek 4 (09/07 & 09/09)\n\n\n\n\n\nLectures:\n\nMonday: Simulation of the Posterior\nWednesday: Statistical Inference in Bayesian Framework\n\n\n\n\n\n\n\n\n\n\nWeek 5 (09/14 & 09/16)\n\n\n\n\n\nEES Project:\n\nWe receive data and research objectives from collaborators this week\n\n\n\n\n\n\n\n\n\n\nWeek 6 (09/21 & 09/23)\n\n\n\n\n\nLectures:\n\nBayesian General Linear Models\nEvaluating Regression Models\n\nEES Project:\n\nGet data imported to R\nBegin “project notebook”\n\nLink research objectives to variable names in dataset\nBegin recording questions for collaborator\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 (09/28 & 09/30)\n\n\n\n\n\nLectures:\n\nBayesian Generalized Linear Models\n\nEES Project:\n\nNumerical and graphical summaries of data\n\n\n\n\n\n\n\n\n\n\nWeek 8 (10/05 & 10/07)\n\n\n\n\n\nIn Class Project 1:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, they will formally introduce you to the project.\nYou will also discuss their research objectives and your initial thoughts on data analysis.\n\nUse this meeting to verify that you understand what questions you should be answering with a statistical model.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 (10/12 & 10/14)\n\n\n\n\n\nTake-home midterm opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss their project and your initial thoughts on data analysis.\n\n\n\n\n\n\n\n\n\n\nWeek 10 (10/19 & 10/21)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models: Random Intercepts\nBayesian Hierarchical Models: Random Slopes\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 11 (10/26 & 10/28)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models:\nCommunicating Results and Writing Statistical Methods\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 12 (11/02 & 11/04)\n\n\n\n\n\nEES Project:\n\nIndividual meetings with Dr. Seals\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, you will present your analysis results to your collaborator.\n\nUse this meeting to communicate the model results in their language.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 (11/09 & 11/11)\n\n\n\n\n\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nWeek 14 (11/16 & 11/18)\n\n\n\n\n\nIn Class Project 2:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nAny necessary updates to your analysis must be completed and sent to your collaborator this week.\nCommunicate with your collaborator to schedule a meeting for the week after Thanksgiving (week of 11/30)\n\n\n\n\n\n\n\n\n\n\nWeek 15 (11/30 & 12/02)\n\n\n\n\n\nTake-home final opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nExam Week\n\n\n\n\n\nEES Project:\n\nCollaborative final paper due."
   },
   {
     "objectID": "lectures/01-2-bayes-thinking.html#introduction",
@@ -672,11 +672,382 @@
     "text": "Wrap Up\n\nWe reviewed basic probability rules and distributions today.\n\nWe are setting up for our next lecture(s).\n\nWednesday: Thinking Like a Bayesian"
   },
   {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Abbreviated Syllabus",
+    "objectID": "lectures/03-1-conjugate-families.html#introduction-gamma-poisson-model",
+    "href": "lectures/03-1-conjugate-families.html#introduction-gamma-poisson-model",
+    "title": "Conjugate Families",
+    "section": "Introduction: Gamma-Poisson Model",
+    "text": "Introduction: Gamma-Poisson Model\n\nRecall the Beta-Binomial model,\n\ny \\sim \\text{Bin}(n, \\pi) (data distribution)\n\\pi \\sim \\text{Beta}(\\alpha, \\beta) (prior distribution)\n\\pi|y \\sim \\text{Beta}(\\alpha+y, \\beta+n-y) (posterior distribution)\n\nFurther recall that the Beta-Binomial model is from a conjugate family.\nNow, we will learn about the Gamma-Poisson, another conjugate family."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#r-packages-needed",
+    "href": "lectures/03-1-conjugate-families.html#r-packages-needed",
+    "title": "Conjugate Families",
+    "section": "R Packages Needed",
+    "text": "R Packages Needed\n\nTo follow today’s lecture, please load the following packages:\n\n\nlibrary(tidyverse)\nlibrary(bayesrules)\nlibrary(ggpubr)"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#example-set-up",
+    "href": "lectures/03-1-conjugate-families.html#example-set-up",
+    "title": "Conjugate Families",
+    "section": "Example Set Up",
+    "text": "Example Set Up\n\nSuppose we are now interested in modeling the number of spam calls we receive.\n\nThis means that we are modeling the rate, \\lambda.\n\nWe take a guess and say that the value of \\lambda that is most likely is around 5,\n\n… but reasonably ranges between 2 and 7 calls per day.\n\nWhy can’t we use the Beta distribution as our prior distribution?\n\n\\lambda is the mean of a count \\to \\lambda \\in \\mathbb{R}^+ \\to \\lambda is not limited to [0, 1] \\to broken assumption for Beta distribution.\n\nWhy can’t we use the binomial distribution as our data distribution?\n\nY_i is a count \\to Y_i \\in \\mathbb{N}^+ \\to Y_i is not limited to \\{0, 1\\} \\to broken assumption for Binomial distribution."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#poisson-data-model",
+    "href": "lectures/03-1-conjugate-families.html#poisson-data-model",
+    "title": "Conjugate Families",
+    "section": "Poisson Data Model",
+    "text": "Poisson Data Model\n\nWe will use the Poisson distribution to model the number of spam calls, Y \\in \\{0, 1, 2, ...\\}\n\nY is the number of independent events that occur in a fixed amount of time or space.\n\\lambda &gt; 0 is the rate at which these events occur.\n\nMathematically,\n\nY | \\lambda \\sim \\text{Pois}(\\lambda),\n\nwith pmf,\n\nf(y|\\lambda) = \\frac{\\lambda^y e^{-\\lambda}}{y!}, \\ \\ \\ y \\in \\{0,1, 2, ... \\}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-prior",
+    "href": "lectures/03-1-conjugate-families.html#gamma-prior",
+    "title": "Conjugate Families",
+    "section": "Gamma Prior",
+    "text": "Gamma Prior\n\nIf \\lambda is a continuous, positive random variable (\\lambda &gt; 0), we will employ the Gamma distribution defined by shape hyperparameter s (s&gt;0) and rate hyperparameter (r&gt;0),\n\n\\lambda \\sim \\text{Gamma}(s, r)\n\nThe Gamma pdf is given by\n\nf(\\lambda) = \\frac{r^s}{\\Gamma(s)} \\lambda^{s-1} e^{-r\\lambda}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-prior-shapes",
+    "href": "lectures/03-1-conjugate-families.html#gamma-prior-shapes",
+    "title": "Conjugate Families",
+    "section": "Gamma Prior: Shapes",
+    "text": "Gamma Prior: Shapes\n\nLet’s explore the shape of the Gamma:\n\n\nplot_gamma(1, 1) + theme_minimal() + ggtitle(\"Gamma(1, 1)\")"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-1",
+    "href": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-1",
+    "title": "Conjugate Families",
+    "section": "Gamma Prior: Shapes",
+    "text": "Gamma Prior: Shapes\n\nLet’s explore the shape of the Gamma:\n\n\nplot_gamma(2, 1) + theme_minimal() + ggtitle(\"Gamma(2, 1)\")"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-2",
+    "href": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-2",
+    "title": "Conjugate Families",
+    "section": "Gamma Prior: Shapes",
+    "text": "Gamma Prior: Shapes\n\nLet’s explore the shape of the Gamma:\n\n\nplot_gamma(10, 1) + theme_minimal() + ggtitle(\"Gamma(10, 1)\")"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-3",
+    "href": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-3",
+    "title": "Conjugate Families",
+    "section": "Gamma Prior: Shapes",
+    "text": "Gamma Prior: Shapes\n\nLet’s explore the shape of the Gamma:\n\n\nplot_gamma(10, 10) + theme_minimal() + ggtitle(\"Gamma(10, 10)\")"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-4",
+    "href": "lectures/03-1-conjugate-families.html#gamma-prior-shapes-4",
+    "title": "Conjugate Families",
+    "section": "Gamma Prior: Shapes",
+    "text": "Gamma Prior: Shapes\n\nWhat happens when we change hyperparameters r and s?"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#tuning-the-gamma-prior",
+    "href": "lectures/03-1-conjugate-families.html#tuning-the-gamma-prior",
+    "title": "Conjugate Families",
+    "section": "Tuning the Gamma Prior",
+    "text": "Tuning the Gamma Prior\n\nLet’s now tune our prior assuming \\lambda \\approx 5.\nWe know the mean of the gamma distribution,\n\nE(\\lambda) = \\frac{s}{r} \\approx 5 \\to 5r \\approx s\n\nYour turn! Use the plot_gamma() function to figure out what value of s and r we need."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#tuning-the-gamma-prior-1",
+    "href": "lectures/03-1-conjugate-families.html#tuning-the-gamma-prior-1",
+    "title": "Conjugate Families",
+    "section": "Tuning the Gamma Prior",
+    "text": "Tuning the Gamma Prior\n\nLooking at different values:"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#poisson-data-model-1",
+    "href": "lectures/03-1-conjugate-families.html#poisson-data-model-1",
+    "title": "Conjugate Families",
+    "section": "Poisson Data Model",
+    "text": "Poisson Data Model\n\nWe will be taking samples from different days.\n\nEach day’s count is independently drawn from the same Poisson distribution. On each day i,\n\n\nY_i|\\lambda \\sim \\text{Pois}(\\lambda)\n\nThis has a unique pmf for each day (i),\n\nf(y_i|\\lambda) = \\frac{\\lambda^{y_i} e^{-\\lambda}}{y_i!}\n\nHowever, we are interested in the joint information in our sample of n observations."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#poisson-data-model-2",
+    "href": "lectures/03-1-conjugate-families.html#poisson-data-model-2",
+    "title": "Conjugate Families",
+    "section": "Poisson Data Model",
+    "text": "Poisson Data Model\n\nThe joint pmf for the Poisson,\n\n\n\\begin{align*}\nf\\left(\\overset{\\to}{y_i}|\\lambda\\right) &= \\prod_{i=1}^n f(y_i|\\lambda) \\\\\n&= f(y_1|\\lambda) \\times f(y_2|\\lambda) \\times ... \\times f(y_n|\\lambda) \\\\\n&= \\frac{\\lambda^{y_1}e^{-\\lambda}}{y_1!} \\times \\frac{\\lambda^{y_2}e^{-\\lambda}}{y_2!} \\times ... \\times \\frac{\\lambda^{y_n}e^{-\\lambda}}{y_n!} \\\\\n&= \\frac{\\left( \\lambda^{y_1} \\lambda^{y_2} \\cdot \\cdot \\cdot \\ \\lambda^{y_n}  \\right) \\left( e^{-\\lambda} e^{-\\lambda} \\cdot \\cdot \\cdot e^{-\\lambda}\\right)}{y_1! y_2! \\cdot \\cdot \\cdot y_n!} \\\\\n&= \\frac{\\lambda^{\\sum y_i}e^{-n\\lambda}}{\\prod_{i=1}^n y_i !}\n\\end{align*}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#poisson-data-model-3",
+    "href": "lectures/03-1-conjugate-families.html#poisson-data-model-3",
+    "title": "Conjugate Families",
+    "section": "Poisson Data Model",
+    "text": "Poisson Data Model\n\nIf the joint pmf for the Poisson is\n\nf\\left(\\overset{\\to}{y_i}|\\lambda\\right) = \\frac{\\lambda^{\\sum y_i}e^{-n\\lambda}}{\\prod_{i=1}^n y_i !}\n\nthen the likelihood function for \\lambda &gt; 0 is\n\n\n\\begin{align*}\nL\\left(\\lambda|\\overset{\\to}{y_i}\\right) &= \\frac{\\lambda^{\\sum y_i}e^{-n\\lambda}}{\\prod_{i=1}^n y_i !} \\\\\n& \\propto \\lambda^{\\sum y_i} e^{-n\\lambda}\n\\end{align*}\n\n\nPlease see page 102 in Bayes Rules! for full derivations."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-poisson-conjugacy",
+    "href": "lectures/03-1-conjugate-families.html#gamma-poisson-conjugacy",
+    "title": "Conjugate Families",
+    "section": "Gamma-Poisson Conjugacy",
+    "text": "Gamma-Poisson Conjugacy\n\nLet \\lambda &gt; 0 be an unknown rate parameter and (Y_1, Y_2, ... , Y_n) be an independent sample from the Poisson distribution.\nThe Gamma-Poisson Bayesian model is as follows:\n\n\n\\begin{align*}\nY_i | \\lambda &\\overset{\\text{ind}}\\sim \\text{Poisson}(\\lambda) \\\\\n\\lambda &\\sim \\text{Gamma}(s, r) \\\\\n\\lambda | \\overset{\\to}y &\\sim \\text{Gamma}\\left( s + \\sum y_i, r + n \\right)\n\\end{align*}\n\n\nThe proof can be seen in section 5.2.4 of Bayes Rules!"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-poisson-conjugacy-1",
+    "href": "lectures/03-1-conjugate-families.html#gamma-poisson-conjugacy-1",
+    "title": "Conjugate Families",
+    "section": "Gamma-Poisson Conjugacy",
+    "text": "Gamma-Poisson Conjugacy\n\nSuppose we use Gamma(10, 2) as the prior for \\lambda, the daily rate of calls.\nOn four separate days in the second week of August (i.e., independent days), we received \\overset{\\to}y = (6, 2, 2, 1) calls.\n\n\nmean(c(6, 2, 2, 1))\n\n[1] 2.75\n\n\n\nWe can see that the average is around 2.75, which will inform the likelihood."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#gamma-poisson-conjugacy-2",
+    "href": "lectures/03-1-conjugate-families.html#gamma-poisson-conjugacy-2",
+    "title": "Conjugate Families",
+    "section": "Gamma-Poisson Conjugacy",
+    "text": "Gamma-Poisson Conjugacy\n\nWe know our prior distribution is Gamma(10, 2) and the data distribution is \\text{Poi}(\\lambda), with observed sample mean \\bar{y} = 2.75.\nThus, the posterior is as follows,\n\n\n\\begin{align*}\n\\lambda | \\overset{\\to}y &\\sim \\text{Gamma}\\left( s + \\sum y_i, r + n \\right) \\\\\n&\\sim \\text{Gamma}\\left(10 + 11, 2 + 4 \\right) \\\\\n&\\sim \\text{Gamma}\\left(21, 6 \\right)\n\\end{align*}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model\n\nThe plot_gamma_poisson() function:\n\n\nplot_gamma_poisson(shape = prior_s, \n                   rate = prior_r, \n                   sum_y = sum_of_obs, \n                   n = sample_size, \n                   posterior = TRUE or FALSE)\n\n\nThe summarize_gamma_poisson() function:\n\n\nsummarize_gamma_poisson(shape = prior_s, \n                        rate = prior_r, \n                        sum_y = sum_of_obs, \n                        n = sample_size)"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-1",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-1",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model\n\nLooking at just the prior and the data distributions,\n\n\n\nThe prior expects more spam calls than what we observed."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-2",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-2",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model\n\nNow including the posterior,\n\n\nplot_gamma_poisson(shape = 10, rate = 2, sum_y = 11, n = 4, posterior = TRUE) + theme_minimal()\n\n\n\nThe shape of the posterior has a Gamma(s, r) model.\n\nThe shape and rate parameters (s and r) have been updated."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-3",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-3",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model\n\nYour turn! What is different if we had used one of the other priors?\nRecall, we considered\n\nGamma(5, 1)\nGamma(10, 2)\nGamma(15, 3)\nGamma(20, 4)"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-4",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-4",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-5",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-5",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model\n\nsummarize_gamma_poisson(shape = 5, rate = 1,  sum_y = 11, n = 4)\n\n\n\n\n\nmodel\nshape\nrate\nmean\nmode\nvar\nsd\n\n\n\n\nprior\n5\n1\n5.0\n4\n5.00\n2.236068\n\n\nposterior\n16\n5\n3.2\n3\n0.64\n0.800000\n\n\n\n\n\nsummarize_gamma_poisson(shape = 10, rate = 2,  sum_y = 11, n = 4)\n\n\n\n\n\nmodel\nshape\nrate\nmean\nmode\nvar\nsd\n\n\n\n\nprior\n10\n2\n5.0\n4.500000\n2.5000000\n1.5811388\n\n\nposterior\n21\n6\n3.5\n3.333333\n0.5833333\n0.7637626"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-6",
+    "href": "lectures/03-1-conjugate-families.html#the-gamma-posterior-model-6",
+    "title": "Conjugate Families",
+    "section": "The Gamma Posterior Model",
+    "text": "The Gamma Posterior Model\n\nsummarize_gamma_poisson(shape = 15, rate = 3,  sum_y = 11, n = 4)\n\n\n\n\n\nmodel\nshape\nrate\nmean\nmode\nvar\nsd\n\n\n\n\nprior\n15\n3\n5.000000\n4.666667\n1.6666667\n1.2909944\n\n\nposterior\n26\n7\n3.714286\n3.571429\n0.5306122\n0.7284314\n\n\n\n\n\nsummarize_gamma_poisson(shape = 20, rate = 4,  sum_y = 11, n = 4)\n\n\n\n\n\nmodel\nshape\nrate\nmean\nmode\nvar\nsd\n\n\n\n\nprior\n20\n4\n5.000\n4.75\n1.250000\n1.1180340\n\n\nposterior\n31\n8\n3.875\n3.75\n0.484375\n0.6959705"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#wrap-up-gamma-poisson-model",
+    "href": "lectures/03-1-conjugate-families.html#wrap-up-gamma-poisson-model",
+    "title": "Conjugate Families",
+    "section": "Wrap Up: Gamma-Poisson Model",
+    "text": "Wrap Up: Gamma-Poisson Model\n\nWe have built the Gamma-Poisson model for \\lambda, an unknown rate.\n\n\n\\begin{equation*}\n\\begin{aligned}\nY|\\lambda &\\sim \\text{Poi}(\\lambda) \\\\\n\\lambda &\\sim \\text{Gamma}(s, r) &\n\\end{aligned}\n\\Rightarrow\n\\begin{aligned}\n&& \\lambda | y &\\sim \\text{Gamma}(s + \\sum y_i, r + n) \\\\\n\\end{aligned}\n\\end{equation*}\n\n\nThe prior model, f(\\lambda), is given by Gamma(s, r).\nThe data model, f(Y|\\lambda), is given by Poi(\\lambda).\nThe posterior model is a Gamma distribution with updated parameters s+\\sum y_i and r + n."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#introduction-normal-normal-model",
+    "href": "lectures/03-1-conjugate-families.html#introduction-normal-normal-model",
+    "title": "Conjugate Families",
+    "section": "Introduction: Normal-Normal Model",
+    "text": "Introduction: Normal-Normal Model\n\nWe have so far learned two conjugate families:\n\nBeta-Binomial (binary outcomes)\n\ny \\sim \\text{Bin}(n, \\pi) (data distribution)\n\\pi \\sim \\text{Beta}(\\alpha, \\beta) (prior distribution)\n\\pi|y \\sim \\text{Beta}(\\alpha+y, \\beta+n-y) (posterior distribution)\n\nGamma-Poisson (count outcomes)\n\nY_i | \\lambda \\overset{ind}\\sim \\text{Pois}(\\lambda) (data distribution)\n\\lambda \\sim \\text{Gamma}(s, r) (prior distribution)\n\\lambda | \\overset{\\to}y \\sim \\text{Gamma}\\left( s + \\sum y_i, r + n \\right) (posterior distribution)\n\n\nNow, we will learn about another conjugate family, the Normal-Normal, for continuous outcomes."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#example-set-up-1",
+    "href": "lectures/03-1-conjugate-families.html#example-set-up-1",
+    "title": "Conjugate Families",
+    "section": "Example Set Up",
+    "text": "Example Set Up\n\nAs scientists learn more about brain health, the dangers of concussions are gaining greater attention.\nWe are interested in \\mu, the average volume (cm3) of a specific part of the brain: the hippocampus.\nWikipedia tells us that among the general population of human adults, each half of the hippocampus has volume between 3.0 and 3.5 cm3.\n\nTotal hippocampal volume of both sides of the brain is between 6 and 7 cm3.\nLet’s assume that the mean hippocampal volume among people with a history of concussions is also somewhere between 6 and 7 cm3.\n\nWe will take a sample of n=25 participants and update our belief."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-model",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-model",
+    "title": "Conjugate Families",
+    "section": "The Normal Model",
+    "text": "The Normal Model\n\nLet Y \\in \\mathbb{R} be a continuous random variable.\n\nThe variability in Y may be represented with a Normal model with mean parameter \\mu \\in \\mathbb{R} and standard deviation parameter \\sigma &gt; 0.\n\nThe Normal model’s pdf is as follows,\n\nf(y) = \\frac{1}{\\sqrt{2\\pi\\sigma^2}} \\exp \\left\\{ \\frac{-(y-\\mu)^2}{2\\sigma^2} \\right\\}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-model-1",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-model-1",
+    "title": "Conjugate Families",
+    "section": "The Normal Model",
+    "text": "The Normal Model\n\nIf we vary \\mu,"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-model-2",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-model-2",
+    "title": "Conjugate Families",
+    "section": "The Normal Model",
+    "text": "The Normal Model\n\nIf we vary \\sigma,"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-model-3",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-model-3",
+    "title": "Conjugate Families",
+    "section": "The Normal Model",
+    "text": "The Normal Model\n\nOur data model is as follows,\n\nY_i | \\mu \\sim N(\\mu, \\sigma^2)\n\nThe joint pdf is as follows,\n\n\nf(\\overset{\\to}y | \\mu) = \\prod_{i=1}^n f(y_i | \\mu) = \\prod_{i=1}^n \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \\exp \\left\\{ \\frac{-(y_i-\\mu)^2}{2\\sigma^2} \\right\\}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-model-4",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-model-4",
+    "title": "Conjugate Families",
+    "section": "The Normal Model",
+    "text": "The Normal Model\n\nAnd the likelihood is as follows,\n\n\nL(\\mu|\\overset{\\to}y) \\propto \\prod_{i=1}^n \\frac{1}{\\sqrt{2 \\pi \\sigma^2}} \\exp \\left\\{ \\frac{-(y_i-\\mu)^2}{2\\sigma^2} \\right\\} = \\exp \\left\\{ \\frac{- \\sum_{i=1}^n(y_i-\\mu)^2}{2\\sigma^2} \\right\\}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-model-5",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-model-5",
+    "title": "Conjugate Families",
+    "section": "The Normal Model",
+    "text": "The Normal Model\n\nOur data model is as follows,\n\nY_i | \\mu \\sim N(\\mu, \\sigma^2)\n\nReturning to our brain analysis, we will assume that the hippocampal volumes of our n = 25 subjects have a normal distribution with mean \\mu and standard deviation \\sigma.\n\nRight now, we are only interested in \\mu, so we assume \\sigma = 0.5 cm3\nThis choice suggests that most people have hippocampal volumes within 2 \\sigma = 1 cm3."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#normal-prior",
+    "href": "lectures/03-1-conjugate-families.html#normal-prior",
+    "title": "Conjugate Families",
+    "section": "Normal Prior",
+    "text": "Normal Prior\n\nWe know that with Y_i | \\mu \\sim N(\\mu, \\sigma^2), \\mu \\in \\mathbb{R}.\n\nWe think a normal prior for \\mu is reasonable.\n\nThus, we assume that \\mu has a normal distribution around some mean, \\theta, with standard deviation, \\tau.\n\n\\mu \\sim N(\\theta, \\tau^2)\n\nmeaning that \\mu has prior pdf\n\nf(\\mu) = \\frac{1}{\\sqrt{2 \\pi \\tau^2}} \\exp \\left\\{ \\frac{-(\\mu - \\theta)^2}{2 \\tau^2} \\right\\}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#tuning-the-normal-prior",
+    "href": "lectures/03-1-conjugate-families.html#tuning-the-normal-prior",
+    "title": "Conjugate Families",
+    "section": "Tuning the Normal Prior",
+    "text": "Tuning the Normal Prior\n\nWe can tune the hyperparameters \\theta and \\tau to reflect our understanding and uncertainty about the average hippocampal volume (\\mu) among people with a history of concussions.\nWikipedia showed us that hippocampal volumes tend to be between 6 and 7 cm3 \\to \\theta=6.5.\nWhen we set the standard deviation we can check the plausible range of values of \\mu:\n\nFollow up: why 2?\n\n\n\\theta \\pm 2 \\times \\tau\n\nIf we assume \\tau=0.4,\n\n(6.5 \\pm 2 \\times 0.4) = (5.7, 7.3)"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#tuning-the-normal-prior-1",
+    "href": "lectures/03-1-conjugate-families.html#tuning-the-normal-prior-1",
+    "title": "Conjugate Families",
+    "section": "Tuning the Normal Prior",
+    "text": "Tuning the Normal Prior\n\nThus, our tuned prior is \\mu \\sim N(6.5, 0.4^2)\n\n\n\nThis range incorporates our uncertainty - it is wider than the Wikipedia range."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy",
+    "href": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy",
+    "title": "Conjugate Families",
+    "section": "Normal-Normal Conjugacy",
+    "text": "Normal-Normal Conjugacy\n\nLet \\mu \\in \\mathbb{R} be an unknown mean parameter and (Y_1, Y_2, ..., Y_n) be an independent N(\\mu, \\sigma^2) sample where \\sigma is assumed to be known.\nThe Normal-Normal Bayesian model is as follows:\n\n\n\\begin{align*}\nY_i | \\mu &\\overset{\\text{iid}} \\sim N(\\mu, \\sigma^2) \\\\\n\\mu &\\sim N(\\theta, \\tau^2) \\\\\n\\mu | \\overset{\\to}y &\\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right)\n\\end{align*}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy-1",
+    "href": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy-1",
+    "title": "Conjugate Families",
+    "section": "Normal-Normal Conjugacy",
+    "text": "Normal-Normal Conjugacy\n\nLet’s think about our posterior and some implications,\n\n\\mu | \\overset{\\to}y \\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right)\n\nWhat happens as n increases?"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy-2",
+    "href": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy-2",
+    "title": "Conjugate Families",
+    "section": "Normal-Normal Conjugacy",
+    "text": "Normal-Normal Conjugacy\n\nLet’s think about our posterior and some implications,\n\n\\mu | \\overset{\\to}y \\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right)\n\nWhat happens as n increases?\n\n\n\\begin{align*}\n\\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} &\\to 0 \\\\\n\\frac{n\\tau^2}{n\\tau^2 + \\sigma^2} &\\to 1 \\\\\n\\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} &\\to 0\n\\end{align*}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy-3",
+    "href": "lectures/03-1-conjugate-families.html#normal-normal-conjugacy-3",
+    "title": "Conjugate Families",
+    "section": "Normal-Normal Conjugacy",
+    "text": "Normal-Normal Conjugacy\n\nLet’s think about our posterior and some implications,\n\n\n\\begin{align*}\n\\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} &\\to 0 \\\\\n\\frac{n\\tau^2}{n\\tau^2 + \\sigma^2} &\\to 1 \\\\\n\\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} &\\to 0\n\\end{align*}\n\n\nThe posterior mean places less weight on the prior mean and more weight on the sample mean \\bar{y}.\nThe posterior certainty about \\mu increases and becomes more in sync with the data."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nThe plot_normal_normal() function:\n\n\nplot_normal_normal(mean = prior_mean, \n                   sd = prior_sd, \n                   sigma = data_sigma,\n                   y_bar = sample_mean, \n                   n = num_obs, \n                   posterior = TRUE or FALSE)\n\n\nThe summarize_normal_normal() function:\n\n\nsummarize_normal_normal(mean = prior_mean, \n                        sd = prior_sd, \n                        sigma = data_sigma,\n                        y_bar = sample_mean, \n                        n = num_obs)"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-1",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-1",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nLet us now apply this to our example.\nWe have our prior model, \\mu \\sim N(6.5, 0.4^2).\nLet’s look at the football dataset in the bayesrules package.\n\n\ndata(football)\nconcussion_subjects &lt;- football %&gt;% \n  filter(group == \"fb_concuss\")\n\n\nWhat is the average hippocampal volume?"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-2",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-2",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nLet us now apply this to our example.\nWe have our prior model, \\mu \\sim N(6.5, 0.4^2).\nLet’s look at the football dataset in the bayesrules package.\n\n\ndata(football)\nconcussion_subjects &lt;- football %&gt;% \n  filter(group == \"fb_concuss\")\n\n\nWhat is the average hippocampal volume?\n\n\nmean(concussion_subjects$volume)\n\n[1] 5.7346"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-3",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-3",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nBefore computing the posterior, let’s examine the distribution of observed hippocampal volumes."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-4",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-4",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nNow, we can plug in the information we have (n = 25, \\bar{y} = 5.735, \\sigma = 0.5) into our likelihood,\n\n\nL(\\mu|\\overset{\\to}y) \\propto \\exp \\left\\{ \\frac{-(5.735 - \\mu)^2}{2(0.5^2/25)} \\right\\}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-5",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-5",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nWe are now ready to put together our posterior:\n\nData distribution, Y_i | \\mu \\overset{\\text{iid}} \\sim N(\\mu, \\sigma^2)\nPrior distribution, \\mu \\sim N(\\theta, \\tau^2)\n\nPosterior distribution, \\mu | \\overset{\\to}y \\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right)\n\nGiven our information (\\theta=6.5, \\tau=0.4, n=25, \\bar{y}=5.735, \\sigma=0.5), our posterior is\n\n\n\\mu | \\overset{\\to}y \\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right)"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-6",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-6",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nGiven our information (\\theta=6.5, \\tau=0.4, n=25, \\bar{y}=5.735, \\sigma=0.5), our posterior is\n\n\n\\begin{align*}\n\\mu | \\overset{\\to}y &\\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right) \\\\\n&\\sim N\\left( 6.5 \\frac{0.5^2}{25 \\cdot 0.4^2 + 0.5^2} + 5.735 \\frac{25 \\cdot 0.4^2}{25 \\cdot 0.4^2 + 0.5^2}, \\frac{0.4^2 \\cdot 0.5^2}{25 \\cdot 0.4^2 + 0.5^2} \\right) \\\\\n&\\sim N(6.5 \\cdot 0.0588 + 5.735 \\cdot 0.9412, 0.09^2) \\\\\n&\\sim N(5.78, 0.09^2)\n\\end{align*}\n\n\nLooking at the posterior, we can see the weights\n\n94% on the data mean, 6% on the prior mean."
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-7",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-7",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nLooking at just the prior and data distributions,"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-8",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-8",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nNow including the posterior,"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-9",
+    "href": "lectures/03-1-conjugate-families.html#the-normal-posterior-model-9",
+    "title": "Conjugate Families",
+    "section": "The Normal Posterior Model",
+    "text": "The Normal Posterior Model\n\nWe can use the summarize_normal_normal() function to summarize the distribution,\n\n\nsummarize_normal_normal(mean = 6.5, sd = 0.4, sigma = 0.5, y_bar = 5.735, n = 25) \n\n\n\n\n\nmodel\nmean\nmode\nvar\nsd\n\n\n\n\nprior\n6.50\n6.50\n0.1600000\n0.4000000\n\n\nposterior\n5.78\n5.78\n0.0094118\n0.0970143"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#wrap-up-normal-normal-model",
+    "href": "lectures/03-1-conjugate-families.html#wrap-up-normal-normal-model",
+    "title": "Conjugate Families",
+    "section": "Wrap Up: Normal-Normal Model",
+    "text": "Wrap Up: Normal-Normal Model\n\nWe have built the Normal-Normal model for \\mu, an unknown mean.\n\n\n\\begin{equation*}\n\\begin{aligned}\nY_i | \\mu &\\overset{\\text{iid}} \\sim N(\\mu, \\sigma^2) \\\\\n\\mu &\\sim N(\\theta, \\tau^2) &\n\\end{aligned}\n\\Rightarrow\n\\begin{aligned}\n&& \\mu | \\overset{\\to}y &\\sim N\\left( \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}, \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2} \\right) \\\\\n\\end{aligned}\n\\end{equation*}\n\n\nThe prior model, f(\\mu), is given by N(\\theta,\\tau^2).\nThe data model, f(Y|\\mu), is given by N(\\mu, \\sigma^2).\nThe posterior model is a Normal distribution with updated parameters\n\nmean = \\theta \\frac{\\sigma^2}{n\\tau^2 + \\sigma^2} + \\bar{y} \\frac{n\\tau^2}{n\\tau^2 + \\sigma^2}\nvariance = \\frac{\\tau^2 \\sigma^2}{n \\tau^2 + \\sigma^2}"
+  },
+  {
+    "objectID": "lectures/03-1-conjugate-families.html#wrap-up",
+    "href": "lectures/03-1-conjugate-families.html#wrap-up",
+    "title": "Conjugate Families",
+    "section": "Wrap Up",
+    "text": "Wrap Up\n\nWe have now covered the main conjugate families.\n\nBeta-Binomial: binary outcomes\nGamma-Poisson: count outcomes\nNormal-Normal: continuous outcomes\n\nNext:\n\nBalance and sequentiality\nHow to use the posterior distribution"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Applied Bayesian Analysis - Fall 2026",
     "section": "",
-    "text": "Note: this is an abbreviated syllabus. The full syllabus is available through Classmate and/or Canvas.\n\nInstructor Information\n\nDr. Samantha Seals\nOffice: 4/344\n\n\n\nMeeting Times and Location\n\nMW 4:00-5:15 pm\nClassroom: 74/107\n\n\n\nOffice Hours\n\nMonday: 9:00-11:00 am\nTuesday: 9:00-11:00 am\nTuesday: 2:00-4:00 pm\nOther times by appointment\n\n\n\nGrading and Evaluation\nThe course grade will be determined as follows:\n\nAssignments (25%): Every module will finish with an assignment to demonstrate the knowledge gained. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nMidterm (25%): The midterm will be a take home midterm. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nProject (25%): Students will complete a project which will be presented in class the last week of classes.\nFinal Exam (25%): The final exam will be a take home final. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\n\n\n\nLate Policy\nAssigments have due dates, however, the dropboxes will not close until the end of the semester. All students are automatically granted “extensions” without question.\nNote that if there is not a submission when I go to grade (after the initial deadline), I will assign a zero (0) and request that you submit the assignment when you are able to. This is only for record keeping purposes. There is no penalty for submitting late and a full grade will be given upon review of your submission.\nExtensions are not available for the project, midterm, or final exam."
+    "text": "Welcome to Applied Bayesian Analysis for Fall 2026!\nThe initial development of this course was supported by the 2023 BATS program, funded by NSF IUSE: EHR program with award numbers 2215879, 2215920, and 2215709."
   },
   {
     "objectID": "assignments/A1.html",
@@ -686,11 +1057,11 @@
     "text": "1. Think of a recent situation in which you changed your mind. As with the restaurant example in class, make a diagram that includes your prior information, your new data that helped you change your mind, and your posterior conclusion.\n\n2. Odie is trying to convince Jon that Garfield is in the mood to steal lasagna, but Jon thinks there is only 0.10 probability that Garfield is in the mood to steal lasagna. Jon also believes that the probability Garfield raids the fridge given that he’s in a lasagna-stealing mood is 0.85, and the probability that Garfield raids the fridge given that he is NOT in a lasagna-stealing mood is 0.20. Odie then catches Garfield raiding the fridge. Given that Garfield raided the fridge, what is the probability that Garfield was in the mood to steal lasagna?\n\n3. Garfield’s fridge-raiding habit isn’t the only thing that follows him around the house. Arlene, Garfield’s on-again-off-again girlfriend, has two dispositions toward Garfield: happy or annoyed. In general, Arlene is happy with Garfield 55% of the time. You’ve noticed, however, that her disposition is related to how many times Garfield ignored her the day before. If Arlene is happy with Garfield today, there’s a 60% chance Garfield ignored her 0 times, a 35% chance he ignored her between 1 and 3 times, and a 5% chance he ignored her more than 3 times yesterday. If Arlene is annoyed with Garfield today, there’s a 10% chance Garfield ignored her 0 times, a 55% chance he ignored her between 1 and 3 times, and a 35% chance he ignored her more than 3 times yesterday.\na. Use the given information to complete the following table.\n\n\n\nIgnores yesterday\nP(ignores | happy)\nP(ignores | annoyed)\n\n\n\n\n0 times\n\n\n\n\n1–3 times\n\n\n\n\nMore than 3 times\n\n\n\n\n\nb. Today’s a new day. Without knowing anything about how many times Garfield ignored Arlene yesterday, what’s the probability that Arlene is happy with Garfield? Which piece of Bayes’ Rule does this number represent?\nc. You’ve been spying on Garfield all day and have tallied that he ignored Arlene a whopping 4 times yesterday. How likely is Arlene to have been ignored 4 times if she’s happy with Garfield today? Which part of the Bayes’ Rule equation is this?\nd. What is the posterior probability that Arlene is happy with Garfield today, given that Garfield ignored her 4 times yesterday?"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Applied Bayesian Analysis - Fall 2026",
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Abbreviated Syllabus",
     "section": "",
-    "text": "Welcome to Applied Bayesian Analysis for Fall 2026!\nThe initial development of this course was supported by the 2023 BATS program, funded by NSF IUSE: EHR program with award numbers 2215879, 2215920, and 2215709."
+    "text": "Note: this is an abbreviated syllabus. The full syllabus is available through Classmate and/or Canvas.\n\nInstructor Information\n\nDr. Samantha Seals\nOffice: 4/344\n\n\n\nMeeting Times and Location\n\nMW 4:00-5:15 pm\nClassroom: 74/107\n\n\n\nOffice Hours\n\nMonday: 9:00-11:00 am\nTuesday: 9:00-11:00 am\nTuesday: 2:00-4:00 pm\nOther times by appointment\n\n\n\nGrading and Evaluation\nThe course grade will be determined as follows:\n\nAssignments (25%): Every module will finish with an assignment to demonstrate the knowledge gained. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nMidterm (25%): The midterm will be a take home midterm. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nProject (25%): Students will complete a project which will be presented in class the last week of classes.\nFinal Exam (25%): The final exam will be a take home final. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\n\n\n\nLate Policy\nAssigments have due dates, however, the dropboxes will not close until the end of the semester. All students are automatically granted “extensions” without question.\nNote that if there is not a submission when I go to grade (after the initial deadline), I will assign a zero (0) and request that you submit the assignment when you are able to. This is only for record keeping purposes. There is no penalty for submitting late and a full grade will be given upon review of your submission.\nExtensions are not available for the project, midterm, or final exam."
   },
   {
     "objectID": "lectures/2-1-conjugate-families.html#introduction-beta-binomial-model",
