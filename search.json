@@ -4,7 +4,7 @@
     "href": "schedule.html",
     "title": "Tentative Schedule",
     "section": "",
-    "text": "Week 1 (08/17 & 08/19)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Probability Distributions .qmd\nWednesday: Thinking Like a Bayesian (Part 1) .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 2 (08/24 & 08/26)\n\n\n\n\n\nLectures:\n\nMonday: Thinking Like a Bayesian (Part 2) .qmd\nWednesday: Beta-Binomial Model .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 3 (08/31 & 09/02)\n\n\n\n\n\nLectures:\n\nMonday: Conjugate Families .qmd\nWednesday: Balance and Sequentiality\n\n\n\n\n\n\n\n\n\n\nWeek 4 (09/07 & 09/09)\n\n\n\n\n\nLectures:\n\nMonday: Simulation of the Posterior\nWednesday: Statistical Inference in Bayesian Framework\n\n\n\n\n\n\n\n\n\n\nWeek 5 (09/14 & 09/16)\n\n\n\n\n\nEES Project:\n\nWe receive data and research objectives from collaborators this week\n\n\n\n\n\n\n\n\n\n\nWeek 6 (09/21 & 09/23)\n\n\n\n\n\nLectures:\n\nBayesian General Linear Models\nEvaluating Regression Models\n\nEES Project:\n\nGet data imported to R\nBegin “project notebook”\n\nLink research objectives to variable names in dataset\nBegin recording questions for collaborator\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 (09/28 & 09/30)\n\n\n\n\n\nLectures:\n\nBayesian Generalized Linear Models\n\nEES Project:\n\nNumerical and graphical summaries of data\n\n\n\n\n\n\n\n\n\n\nWeek 8 (10/05 & 10/07)\n\n\n\n\n\nIn Class Project 1:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, they will formally introduce you to the project.\nYou will also discuss their research objectives and your initial thoughts on data analysis.\n\nUse this meeting to verify that you understand what questions you should be answering with a statistical model.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 (10/12 & 10/14)\n\n\n\n\n\nTake-home midterm opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss their project and your initial thoughts on data analysis.\n\n\n\n\n\n\n\n\n\n\nWeek 10 (10/19 & 10/21)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models: Random Intercepts\nBayesian Hierarchical Models: Random Slopes\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 11 (10/26 & 10/28)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models:\nCommunicating Results and Writing Statistical Methods\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 12 (11/02 & 11/04)\n\n\n\n\n\nEES Project:\n\nIndividual meetings with Dr. Seals\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, you will present your analysis results to your collaborator.\n\nUse this meeting to communicate the model results in their language.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 (11/09 & 11/11)\n\n\n\n\n\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nWeek 14 (11/16 & 11/18)\n\n\n\n\n\nIn Class Project 2:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nAny necessary updates to your analysis must be completed and sent to your collaborator this week.\nCommunicate with your collaborator to schedule a meeting for the week after Thanksgiving (week of 11/30)\n\n\n\n\n\n\n\n\n\n\nWeek 15 (11/30 & 12/02)\n\n\n\n\n\nTake-home final opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nExam Week\n\n\n\n\n\nEES Project:\n\nCollaborative final paper due."
+    "text": "Week 1 (08/17 & 08/19)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Probability Distributions .qmd\nWednesday: Thinking Like a Bayesian (Part 1) .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 2 (08/24 & 08/26)\n\n\n\n\n\nLectures:\n\nMonday: Thinking Like a Bayesian (Part 2) .qmd\nWednesday: Beta-Binomial Model .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 3 (08/31 & 09/02)\n\n\n\n\n\nLectures:\n\nMonday: Conjugate Families .qmd\nWednesday: Balance and Sequentiality - read Chapter 4 of Bayes Rules! at home\n\n\n\n\n\n\n\n\n\n\nWeek 4 (09/07 & 09/09)\n\n\n\n\n\nLectures:\n\nMonday: Simulation of the Posterior .qmd\nWednesday: Statistical Inference in Bayesian Framework\n\n\n\n\n\n\n\n\n\n\nWeek 5 (09/14 & 09/16)\n\n\n\n\n\nEES Project:\n\nWe receive data and research objectives from collaborators this week\n\n\n\n\n\n\n\n\n\n\nWeek 6 (09/21 & 09/23)\n\n\n\n\n\nLectures:\n\nBayesian General Linear Models\nEvaluating Regression Models\n\nEES Project:\n\nGet data imported to R\nBegin “project notebook”\n\nLink research objectives to variable names in dataset\nBegin recording questions for collaborator\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 (09/28 & 09/30)\n\n\n\n\n\nLectures:\n\nBayesian Generalized Linear Models\n\nEES Project:\n\nNumerical and graphical summaries of data\n\n\n\n\n\n\n\n\n\n\nWeek 8 (10/05 & 10/07)\n\n\n\n\n\nIn Class Project 1:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, they will formally introduce you to the project.\nYou will also discuss their research objectives and your initial thoughts on data analysis.\n\nUse this meeting to verify that you understand what questions you should be answering with a statistical model.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 9 (10/12 & 10/14)\n\n\n\n\n\nTake-home midterm opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss their project and your initial thoughts on data analysis.\n\n\n\n\n\n\n\n\n\n\nWeek 10 (10/19 & 10/21)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models: Random Intercepts\nBayesian Hierarchical Models: Random Slopes\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 11 (10/26 & 10/28)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models:\nCommunicating Results and Writing Statistical Methods\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 12 (11/02 & 11/04)\n\n\n\n\n\nEES Project:\n\nIndividual meetings with Dr. Seals\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, you will present your analysis results to your collaborator.\n\nUse this meeting to communicate the model results in their language.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 (11/09 & 11/11)\n\n\n\n\n\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nWeek 14 (11/16 & 11/18)\n\n\n\n\n\nIn Class Project 2:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nAny necessary updates to your analysis must be completed and sent to your collaborator this week.\nCommunicate with your collaborator to schedule a meeting for the week after Thanksgiving (week of 11/30)\n\n\n\n\n\n\n\n\n\n\nWeek 15 (11/30 & 12/02)\n\n\n\n\n\nTake-home final opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nExam Week\n\n\n\n\n\nEES Project:\n\nCollaborative final paper due."
   },
   {
     "objectID": "lectures/01-2-bayes-thinking.html#introduction",
@@ -672,6 +672,391 @@
     "text": "Wrap Up\n\nWe reviewed basic probability rules and distributions today.\n\nWe are setting up for our next lecture(s).\n\nWednesday: Thinking Like a Bayesian"
   },
   {
+    "objectID": "lectures/05-1-approx-posterior.html#introduction",
+    "href": "lectures/05-1-approx-posterior.html#introduction",
+    "title": "Approximating the Posterior",
+    "section": "Introduction",
+    "text": "Introduction\n\nWe have learned how to think like a Bayesian:\n\nPrior distribution\nData distribution\nPosterior distribution\n\nWe have learned three conjugate families:\n\nBeta-Binomial (binary outcomes)\nGamma-Poisson (count outcomes)\nNormal-Normal (continuous outcomes)\n\nOnce we have a posterior model, we must be able to apply the results.\n\nPosterior estimation\nHypothesis testing\nPrediction"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#introduction-1",
+    "href": "lectures/05-1-approx-posterior.html#introduction-1",
+    "title": "Approximating the Posterior",
+    "section": "Introduction",
+    "text": "Introduction\n\nRecall, we have the posterior pdf,\n\nf(\\theta|y) = \\frac{f(\\theta) L(\\theta|y)}{f(y)} \\propto f(\\theta)L(\\theta|y)\n\nNow, in the denominator, we need to remember,\n\nf(y) = \\int_{\\theta_1} \\int_{\\theta_2} \\cdot \\cdot \\cdot \\int_{\\theta_k} f(\\theta) L(\\theta|y) d\\theta_k \\cdot \\cdot \\cdot d\\theta_2 d\\theta_1\n\nBecause this is … not fun … we will approximate the posterior via simulation."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#introduction-2",
+    "href": "lectures/05-1-approx-posterior.html#introduction-2",
+    "title": "Approximating the Posterior",
+    "section": "Introduction",
+    "text": "Introduction\n\nWe are going to explore two simulation techniques:\n\ngrid approximation\nMarkov chain Monte Carlo (MCMC)\n\nEither method will produce a sample of N values for \\theta.\n\n\\left \\{ \\theta^{(1)}, \\theta^{(2)}, ..., \\theta^{(N)} \\right \\}\n\nThese \\theta_i will have properties that reflect those of the posterior model for \\theta.\nTo help us, we will apply these simulation techniques to Beta-Binomial and Gamma-Poisson models.\n\nNote that these models do not require simulation! We know their posteriors!\nThat’s why we are starting there – we can link the concepts to what we know. :)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#introduction-3",
+    "href": "lectures/05-1-approx-posterior.html#introduction-3",
+    "title": "Approximating the Posterior",
+    "section": "Introduction",
+    "text": "Introduction\n\nNote: we will use the following packages that may be new to you:\n\njanitor\nrstan\nbayesplot\n\nIf you are using the server provided by HMCSE, they have been installed for you.\nIf you are working at home, please check to see if you have the libraries, then install if you do not.\n\ninstall.packages(c(\"janitor\", \"rstan\", \"bayesplot\"))"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\n\n\n\nSuppose there is an image that you can’t view in its entirety.\nWe can see snippets along a grid that sweeps from left to right across the image.\nThe finer the grid, the clearer the image; if the grid is fine enough, the result is a good approximation."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-1",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-1",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\n\n\n\nThis is the general idea behind Bayesian grid approximation.\nOur target image is the posterior pdf, f(\\theta|y).\n\nIt is not necessary to observe all possible f(\\theta|y) \\ \\forall \\theta for us to understand its structure.\nInstead, we evaluate f(\\theta|y) at a finite, discrete grid of possible \\theta values.\nThen, we take random samples from this discretized pdf to approximate the full posterior pdf."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-2",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-2",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nGrid approximation produces a sample of N independent \\theta values,\n\n\\left\\{ \\theta^{(1)}, \\theta^{(2)}, ..., \\theta^{(N)} \\right\\},\nfrom a discretized approximation of the posterior pdf, f(\\theta|y)."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-3",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-3",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nAlgorithm:\n\nDefine a discrete grid of possible \\theta values.\nEvaluate the prior pdf, f(\\theta), and the likelihood function, L(\\theta|y) at each \\theta grid value.\nObtain a discrete approximation of the posterior pdf, f(\\theta|y) by:\n\nCalculating the product f(\\theta) L(\\theta|y) at each \\theta grid value,\nNormalize the products from (a) to sum to 1 across all \\theta.\n\nRandomly sample N \\theta grid values with respect to their corresponding normalized posterior probabilities."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation---example",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation---example",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation - Example",
+    "text": "Grid Approximation - Example\n\nWe will use the following Beta-Binomial model to learn how to do grid approximation:\n\n\n\\begin{align*}\nY|\\pi &\\sim \\text{Bin}(10, \\pi) \\\\\n\\pi &\\sim \\text{Beta}(2, 2)\n\\end{align*}\n\n\nNote that\n\nY is the number of successes in 10 independent trials.\nEvery trial has probability of success, \\pi.\nOur prior understanding about \\pi is captured by a \\text{Beta}(2,2) model."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation---example-1",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation---example-1",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation - Example",
+    "text": "Grid Approximation - Example\n\nIf we observe Y = 9 successes, we know that the updated posterior model for \\pi is \\text{Beta}(11, 3).\n\nY + \\alpha = 9+2\nn - Y + \\beta = 10-9+2\n\nThus,\n\n\n\\begin{align*}\nY|\\pi &\\sim \\text{Bin}(10, \\pi) \\\\\n\\pi &\\sim \\text{Beta}(2, 2) \\\\\n\\pi | Y &\\sim \\text{Beta}(11, 3)\n\\end{align*}"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-4",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-4",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nFirst step: define a discrete grid of possible \\theta values.\n\nSo, let’s consider \\pi \\in \\{0, 0.2, 0.4, 0.6, 0.8, 1\\}.\n\n\n\nlibrary(tidyverse)\ngrid_data &lt;- tibble(pi_grid = seq(from = 0, to = 1, length = 6))"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-5",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-5",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nFirst step: define a discrete grid of possible \\theta values.\n\nSo, let’s consider \\pi \\in \\{0, 0.2, 0.4, 0.6, 0.8, 1\\}.\n\n\n\nlibrary(tidyverse)\ngrid_data &lt;- tibble(pi_grid = seq(from = 0, to = 1, length = 6))\n\n\n\n\n\n\n\npi_grid\n\n\n\n\n0.0\n\n\n0.2\n\n\n0.4"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-6",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-6",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nSecond step: evaluate the prior pdf, f(\\theta), and the likelihood function, L(\\theta|y) at each \\theta grid value.\n\nWe will use dbeta() and dbinom() to evaluate the \\text{Beta}(2,2) prior and \\text{Bin}(10, \\pi) likelihood with Y=9 at each \\pi in pi_grid.\n\n\n\ngrid_data &lt;- grid_data %&gt;%\n  mutate(prior = dbeta(pi_grid, 2, 2),\n         likelihood = dbinom(9, 10, pi_grid))"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-7",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-7",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nSecond step: evaluate the prior pdf, f(\\theta), and the likelihood function, L(\\theta|y) at each \\theta grid value.\n\nWe will use dbeta() and dbinom() to evaluate the \\text{Beta}(2,2) prior and \\text{Bin}(10, \\pi) likelihood with Y=9 at each \\pi in pi_grid.\n\n\n\ngrid_data &lt;- grid_data %&gt;%\n  mutate(prior = dbeta(pi_grid, 2, 2),\n         likelihood = dbinom(9, 10, pi_grid))\n\n\n\n\n\n\n\npi_grid\nprior\nlikelihood\n\n\n\n\n0.0\n0.00\n0.0000000\n\n\n0.2\n0.96\n0.0000041\n\n\n0.4\n1.44\n0.0015729"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-8",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-8",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nThird step: obtain a discrete approximation of the posterior pdf, f(\\theta|y) by calculating the product f(\\theta) L(\\theta|y) at each \\theta grid value and normalizing the products to sum to 1 across all \\theta.\n\n\ngrid_data &lt;- grid_data %&gt;%\n  mutate(unnormalized = likelihood*prior,\n         posterior = unnormalized / sum(unnormalized))"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-9",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-9",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nThird step: obtain a discrete approximation of the posterior pdf, f(\\theta|y) by calculating the product f(\\theta) L(\\theta|y) at each \\theta grid value and normalizing the products to sum to 1 across all \\theta.\n\n\ngrid_data &lt;- grid_data %&gt;%\n  mutate(unnormalized = likelihood*prior,\n         posterior = unnormalized / sum(unnormalized))\n\n\nWe can verify,\n\n\ngrid_data %&gt;%\n  summarize(sum(unnormalized), sum(posterior))\n\n\n\n\n\nsum(unnormalized)\nsum(posterior)\n\n\n\n\n0.3180144\n1"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-10",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-10",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nThird step: obtain a discrete approximation of the posterior pdf, f(\\theta|y) by calculating the product f(\\theta) L(\\theta|y) at each \\theta grid value and normalizing the products to sum to 1 across all \\theta.\n\n\ngrid_data &lt;- grid_data %&gt;%\n  mutate(unnormalized = likelihood*prior,\n         posterior = unnormalized / sum(unnormalized))\n\n\n\n\n\n\n\npi_grid\nprior\nlikelihood\nunnormalized\nposterior\n\n\n\n\n0.0\n0.00\n0.0000000\n0.0000000\n0.0000000\n\n\n0.2\n0.96\n0.0000041\n0.0000039\n0.0000124\n\n\n0.4\n1.44\n0.0015729\n0.0022649\n0.0071221"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-11",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-11",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nInstead of using the posterior we know, let’s approximate it using grid approximation.\nWe now have a glimpse into the actual posterior pdf.\n\nWe can plot it to see what it looks like,"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-12",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-12",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nAs we increase the number of possible \\theta values, the better we can “see” the resulting posterior.\nWhat happens if we try the following: n=50, n=100, n=500, n=1000?"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#grid-approximation-13",
+    "href": "lectures/05-1-approx-posterior.html#grid-approximation-13",
+    "title": "Approximating the Posterior",
+    "section": "Grid Approximation",
+    "text": "Grid Approximation\n\nAs we increase the number of possible \\theta values, the better we can “see” the resulting posterior.\nWhat happens if we try the following: n=50, n=100, n=500, n=1000?"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#markov-chain-monte-carlo-mcmc",
+    "href": "lectures/05-1-approx-posterior.html#markov-chain-monte-carlo-mcmc",
+    "title": "Approximating the Posterior",
+    "section": "Markov chain Monte Carlo (MCMC)",
+    "text": "Markov chain Monte Carlo (MCMC)\n\nMarkov chain Monte Carlo (MCMC) is an application of Markov chains to simulate probability models.\nMCMC samples are not taken directly from the posterior pdf, f(\\theta | y)… and they are not independent.\n\nEach subsequent value depends on the previous value.\n\nSuppose we have an N-length MCMC sample, \\left\\{ \\theta^{(1)}, \\theta^{(2)}, \\theta^{(3)}, ..., \\theta^{(N)} \\right\\}\n\n\\theta^{(2)} is drawn from a model that depends on \\theta^{(1)}.\n\\theta^{(3)} is drawn from a model that depends on \\theta^{(2)}.\netc."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#markov-chain-monte-carlo-mcmc-1",
+    "href": "lectures/05-1-approx-posterior.html#markov-chain-monte-carlo-mcmc-1",
+    "title": "Approximating the Posterior",
+    "section": "Markov chain Monte Carlo (MCMC)",
+    "text": "Markov chain Monte Carlo (MCMC)\n\nThe (i+1)st chain value, \\theta^{(i+1)} is drawn from a model that depends on data y and the previous chain value, \\theta^{(i)}.\n\nf\\left( \\theta^{(i+1)} | \\theta^{(i)}, y \\right)\n\nIt is important for us to note that the pdf from which a Markov chain is simulated is not equivalent to the posterior pdf!\n\nf\\left( \\theta^{(i+1)} | \\theta^{(i)}, y  \\right) \\ne f\\left(\\theta^{(i+1)}|y \\right)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\nWe will use rstan:\n\ndefine the Bayesian model structure in rstan notation\nsimulate the posterior\n\nAgain, we will use the Beta-Binomial model from earlier.\n\ndata: in our example, Y is the observed number of successes in 10 trials.\n\nWe need to tell rstan that Y is an integer between 0 and 10.\n\nparameters: in our example, our model depends on \\pi.\n\nWe need to tell rstan that \\pi can be any real number between 0 and 1.\n\nmodel: in our example, we need to specify Y \\sim \\text{Bin}(10, \\pi) and \\pi \\sim \\text{Beta}(2,2)."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan-1",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan-1",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\n# STEP 1: DEFINE the model\nbb_model &lt;- \"\n  data {\n    int&lt;lower = 0, upper = 10&gt; Y;\n  }\n  parameters {\n    real&lt;lower = 0, upper = 1&gt; pi;\n  }\n  model {\n    Y ~ binomial(10, pi);\n    pi ~ beta(2, 2);\n  }\n\""
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan-2",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan-2",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\nThen, when we go to simulate, we first put in the model information\n\nmodel code: the character string defining the model (in our case, bb_model).\ndata: a list of the observed data.\n\nIn this example, we are using Y = 9 - a single data point.\n\n\nThen, we put in the Markov chain information,\n\nchains: how many parallel Markov chains to run.\n\nThis will be the number of distinct \\theta values we want.\n\niter: desired number of iterations, or length of Markov chain.\n\nHalf are thrown out as “burn in” samples.\n\n“burn in”? Think: pancakes!\n\n\nseed: used to set the seed of the RNG."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan-3",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan-3",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\n# STEP 2: simulate the posterior\nbb_sim &lt;- stan(model_code = bb_model, data = list(Y = 9), \n               chains = 4, iter = 5000*2, seed = 84735)\n\n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 3e-06 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.012 seconds (Warm-up)\nChain 1:                0.013 seconds (Sampling)\nChain 1:                0.025 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 0 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.011 seconds (Warm-up)\nChain 2:                0.013 seconds (Sampling)\nChain 2:                0.024 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 0 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.011 seconds (Warm-up)\nChain 3:                0.012 seconds (Sampling)\nChain 3:                0.023 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 1e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.01 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.013 seconds (Warm-up)\nChain 4:                0.014 seconds (Sampling)\nChain 4:                0.027 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan-4",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan-4",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\nNow, we need to extract the values,\n\n\nas.array(bb_sim, pars = \"pi\") %&gt;% head(4)\n\n, , parameters = pi\n\n          chains\niterations   chain:1   chain:2   chain:3   chain:4\n      [1,] 0.8278040 0.7523560 0.6386998 0.9627572\n      [2,] 0.9087546 0.8922386 0.6254761 0.9413518\n      [3,] 0.6143859 0.8682356 0.7222360 0.9489624\n      [4,] 0.8462156 0.8792812 0.8100192 0.9413812\n\n\n\nRemember, these are not a random sample from the posterior!\nThey are also not independent!\nEach chain forms a dependent 5,000 length Markov chain of \\left\\{ \\pi^{(1)}, \\pi^{(2)}, ..., \\pi^{(5000)}\\right\\}\n\nEach chain will move along the sample space of plausible values for \\pi."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan-5",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan-5",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\nWe will look at the trace plot (using mcmc_trace() from bayesplot package) to see what the values did longitudinally.\n\n\n\nmcmc_trace(bb_sim, pars = \"pi\", size = 0.1)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#using-rstan-6",
+    "href": "lectures/05-1-approx-posterior.html#using-rstan-6",
+    "title": "Approximating the Posterior",
+    "section": "Using rstan",
+    "text": "Using rstan\n\nWe can also look at the mcmc_hist() and mcmc_dens() functions,"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#diagnostics",
+    "href": "lectures/05-1-approx-posterior.html#diagnostics",
+    "title": "Approximating the Posterior",
+    "section": "Diagnostics",
+    "text": "Diagnostics\n\nSimulations are not perfect…\n\nWhat does a good Markov chain look like?\nHow can we tell if the Markov chain sample produces a reasonable approximation of the posterior?\nHow big should our Markov chain sample size be?\n\nUnfortunately there is no one answer here.\n\nYou will learn through experience, much like other nuanced areas of statistics."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#diagnostics-1",
+    "href": "lectures/05-1-approx-posterior.html#diagnostics-1",
+    "title": "Approximating the Posterior",
+    "section": "Diagnostics",
+    "text": "Diagnostics\n\nLet’s now discuss diagnostic tools.\n\nTrace plots\nParallel chains\nEffective sample size\nAutocorrelation\n\\hat{R}"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#trace-plots",
+    "href": "lectures/05-1-approx-posterior.html#trace-plots",
+    "title": "Approximating the Posterior",
+    "section": "Trace Plots",
+    "text": "Trace Plots\n\n\n\n\nChain A has not stabilized after 5000 iterations.\n\nIt has not “found” or does not know how to explore the range of posterior plausible \\pi values.\nThe downward trend also hints against independent noise."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#trace-plots-1",
+    "href": "lectures/05-1-approx-posterior.html#trace-plots-1",
+    "title": "Approximating the Posterior",
+    "section": "Trace Plots",
+    "text": "Trace Plots\n\n\n\n\nWe say that Chain A is mixing slowly.\n\nThe more Markov chains behave like fast mixing (noisy) independent samples, the smaller the error in the resulting posterior approximation."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#trace-plots-2",
+    "href": "lectures/05-1-approx-posterior.html#trace-plots-2",
+    "title": "Approximating the Posterior",
+    "section": "Trace Plots",
+    "text": "Trace Plots\n\n\n\n\nChain B is not great, either – it gets stuck when looking at a smaller value of \\pi."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#trace-plots-3",
+    "href": "lectures/05-1-approx-posterior.html#trace-plots-3",
+    "title": "Approximating the Posterior",
+    "section": "Trace Plots",
+    "text": "Trace Plots\n\nRealistically, we are only going to do simulations when we can’t specify the posterior and must approximate\n\ni.e., we won’t be able to compare the simulation results to the “true” results.\n\nIf we see bad trace plots:\n\nCheck the model (… or your code). Are the assumed prior and data models appropriate?\nRun the chain for more iterations. Sometimes we just need a longer run to iron out issues."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains\n\nLet’s now consider a smaller simulation, where n=50 (recall, overall n=100, but half is for burn-in).\nRun the following code:\n\n\nbb_sim_short &lt;- stan(model_code = bb_model, data = list(Y = 9), \n                     chains = 4, iter = 50*2, seed = 84735)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains-1",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains-1",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains\n\nLet’s now consider a smaller simulation, where n=50 (recall, overall n=100, but half is for burn-in).\nRun the following code:\n\n\nbb_sim_short &lt;- stan(model_code = bb_model, data = list(Y = 9), \n                     chains = 4, iter = 50*2, seed = 84735)\n\n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 1e-06 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.01 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: WARNING: There aren't enough warmup iterations to fit the\nChain 1:          three stages of adaptation as currently configured.\nChain 1:          Reducing each adaptation stage to 15%/75%/10% of\nChain 1:          the given number of warmup iterations:\nChain 1:            init_buffer = 7\nChain 1:            adapt_window = 38\nChain 1:            term_buffer = 5\nChain 1: \nChain 1: Iteration:  1 / 100 [  1%]  (Warmup)\nChain 1: Iteration: 10 / 100 [ 10%]  (Warmup)\nChain 1: Iteration: 20 / 100 [ 20%]  (Warmup)\nChain 1: Iteration: 30 / 100 [ 30%]  (Warmup)\nChain 1: Iteration: 40 / 100 [ 40%]  (Warmup)\nChain 1: Iteration: 50 / 100 [ 50%]  (Warmup)\nChain 1: Iteration: 51 / 100 [ 51%]  (Sampling)\nChain 1: Iteration: 60 / 100 [ 60%]  (Sampling)\nChain 1: Iteration: 70 / 100 [ 70%]  (Sampling)\nChain 1: Iteration: 80 / 100 [ 80%]  (Sampling)\nChain 1: Iteration: 90 / 100 [ 90%]  (Sampling)\nChain 1: Iteration: 100 / 100 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0 seconds (Warm-up)\nChain 1:                0 seconds (Sampling)\nChain 1:                0 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 0 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: WARNING: There aren't enough warmup iterations to fit the\nChain 2:          three stages of adaptation as currently configured.\nChain 2:          Reducing each adaptation stage to 15%/75%/10% of\nChain 2:          the given number of warmup iterations:\nChain 2:            init_buffer = 7\nChain 2:            adapt_window = 38\nChain 2:            term_buffer = 5\nChain 2: \nChain 2: Iteration:  1 / 100 [  1%]  (Warmup)\nChain 2: Iteration: 10 / 100 [ 10%]  (Warmup)\nChain 2: Iteration: 20 / 100 [ 20%]  (Warmup)\nChain 2: Iteration: 30 / 100 [ 30%]  (Warmup)\nChain 2: Iteration: 40 / 100 [ 40%]  (Warmup)\nChain 2: Iteration: 50 / 100 [ 50%]  (Warmup)\nChain 2: Iteration: 51 / 100 [ 51%]  (Sampling)\nChain 2: Iteration: 60 / 100 [ 60%]  (Sampling)\nChain 2: Iteration: 70 / 100 [ 70%]  (Sampling)\nChain 2: Iteration: 80 / 100 [ 80%]  (Sampling)\nChain 2: Iteration: 90 / 100 [ 90%]  (Sampling)\nChain 2: Iteration: 100 / 100 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0 seconds (Warm-up)\nChain 2:                0 seconds (Sampling)\nChain 2:                0 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 0 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: WARNING: There aren't enough warmup iterations to fit the\nChain 3:          three stages of adaptation as currently configured.\nChain 3:          Reducing each adaptation stage to 15%/75%/10% of\nChain 3:          the given number of warmup iterations:\nChain 3:            init_buffer = 7\nChain 3:            adapt_window = 38\nChain 3:            term_buffer = 5\nChain 3: \nChain 3: Iteration:  1 / 100 [  1%]  (Warmup)\nChain 3: Iteration: 10 / 100 [ 10%]  (Warmup)\nChain 3: Iteration: 20 / 100 [ 20%]  (Warmup)\nChain 3: Iteration: 30 / 100 [ 30%]  (Warmup)\nChain 3: Iteration: 40 / 100 [ 40%]  (Warmup)\nChain 3: Iteration: 50 / 100 [ 50%]  (Warmup)\nChain 3: Iteration: 51 / 100 [ 51%]  (Sampling)\nChain 3: Iteration: 60 / 100 [ 60%]  (Sampling)\nChain 3: Iteration: 70 / 100 [ 70%]  (Sampling)\nChain 3: Iteration: 80 / 100 [ 80%]  (Sampling)\nChain 3: Iteration: 90 / 100 [ 90%]  (Sampling)\nChain 3: Iteration: 100 / 100 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0 seconds (Warm-up)\nChain 3:                0 seconds (Sampling)\nChain 3:                0 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 0 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: WARNING: There aren't enough warmup iterations to fit the\nChain 4:          three stages of adaptation as currently configured.\nChain 4:          Reducing each adaptation stage to 15%/75%/10% of\nChain 4:          the given number of warmup iterations:\nChain 4:            init_buffer = 7\nChain 4:            adapt_window = 38\nChain 4:            term_buffer = 5\nChain 4: \nChain 4: Iteration:  1 / 100 [  1%]  (Warmup)\nChain 4: Iteration: 10 / 100 [ 10%]  (Warmup)\nChain 4: Iteration: 20 / 100 [ 20%]  (Warmup)\nChain 4: Iteration: 30 / 100 [ 30%]  (Warmup)\nChain 4: Iteration: 40 / 100 [ 40%]  (Warmup)\nChain 4: Iteration: 50 / 100 [ 50%]  (Warmup)\nChain 4: Iteration: 51 / 100 [ 51%]  (Sampling)\nChain 4: Iteration: 60 / 100 [ 60%]  (Sampling)\nChain 4: Iteration: 70 / 100 [ 70%]  (Sampling)\nChain 4: Iteration: 80 / 100 [ 80%]  (Sampling)\nChain 4: Iteration: 90 / 100 [ 90%]  (Sampling)\nChain 4: Iteration: 100 / 100 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0 seconds (Warm-up)\nChain 4:                0 seconds (Sampling)\nChain 4:                0 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains-2",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains-2",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains\n\nLet’s now generate the trace and density plots for the smaller simulation:\n\n\nggarrange(mcmc_trace(bb_sim_short, pars = \"pi\") + ggtitle(\"trace\") + theme_bw() + theme(legend.position=\"none\"),\n          mcmc_dens_overlay(bb_sim_short, pars = \"pi\") + ylab(\"density\") + ggtitle(\"density\") + theme_bw(),\n          ncol=2, nrow=1)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains-3",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains-3",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains-4",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains-4",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains\n\nNow you try 10,000 iterations. Update the following code:\n\n\nbb_sim_full &lt;- stan(model_code = bb_model, \n                    data = list(Y = 9), \n                    chains = 4, \n                    iter = 50*2, \n                    seed = 84735)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains-5",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains-5",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains\n\nCreate the trace and density plots. Recall the code,\n\n\nggarrange(\n  mcmc_trace(bb_sim, pars = \"pi\") + theme_bw() + theme(legend.position=\"none\") + ggtitle(\"trace\"),\n  mcmc_dens_overlay(bb_sim, pars = \"pi\") +  ylab(\"density\") + ggtitle(\"density\") + theme_bw(),\n  ncol = 2, nrow = 1)"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#parallel-chains-6",
+    "href": "lectures/05-1-approx-posterior.html#parallel-chains-6",
+    "title": "Approximating the Posterior",
+    "section": "Parallel Chains",
+    "text": "Parallel Chains\n\nCreate the trace and density plots."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#effective-sample-size",
+    "href": "lectures/05-1-approx-posterior.html#effective-sample-size",
+    "title": "Approximating the Posterior",
+    "section": "Effective Sample Size",
+    "text": "Effective Sample Size\n\nThe more a dependent Markov chain behaves like an independent sample, the smaller the error in the resulting posterior approximation.\n\nPlots are great, but numerical assessment can provide more nuanced information.\n\nEffective sample size (N_{\\text{eff}}): the number of independent sample values it would take to produce an equivalently accurate posterior approximation.\nEffective sample size ratio:\n\n\\frac{N_{\\text{eff}}}{N}\n\nGenerally, we look for the effective sample size, N_{\\text{eff}}, to be greater than 10% of the actual sample size, N."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#effective-sample-size-1",
+    "href": "lectures/05-1-approx-posterior.html#effective-sample-size-1",
+    "title": "Approximating the Posterior",
+    "section": "Effective Sample Size",
+    "text": "Effective Sample Size\n\nWe will use the neff_ratio() function to find this ratio.\nIn our example data,\n\n\n# Calculate the effective sample size ratio - N = 50\nneff_ratio(bb_sim, pars = c(\"pi\"))\n\n[1] 0.3462257\n\n# Calculate the effective sample size ratio - N = 10000\nneff_ratio(bb_sim_short, pars = c(\"pi\"))\n\n[1] 0.4950171\n\n\n\nBecause the N_{\\text{eff}} is over 10%, we are not concerned and can proceed."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#autocorrelation",
+    "href": "lectures/05-1-approx-posterior.html#autocorrelation",
+    "title": "Approximating the Posterior",
+    "section": "Autocorrelation",
+    "text": "Autocorrelation\n\nAutocorrelation allows us to evaluate if our Markov chain sufficiently mimics the behavior of an independent sample.\nAutocorrelation:\n\nLag 1 autocorrelation measures the correlation between pairs of Markov chain values that are one “step” apart (e.g., \\pi_i and \\pi_{(i-1)}; e.g., \\pi_4 and \\pi_3).\nLag 2 autocorrelation measures the correlation between pairs of Markov chain values that are two “steps apart (e.g., \\pi_i and \\pi_{(i-2)}; e.g., \\pi_4 and \\pi_2).\nLag k autocorrelation measures the correlation between pairs of Markov chain values that are k “steps” apart (e.g., \\pi_i and \\pi_{(i-k)}; e.g., \\pi_4 and \\pi_{(4-k)})."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#autocorrelation-1",
+    "href": "lectures/05-1-approx-posterior.html#autocorrelation-1",
+    "title": "Approximating the Posterior",
+    "section": "Autocorrelation",
+    "text": "Autocorrelation\n\nAutocorrelation allows us to evaluate if our Markov chain sufficiently mimics the behavior of an independent sample.\nStrong autocorrelation or dependence is a bad thing.\n\nIt goes hand in hand with small effective sample size ratios.\nThese provide a warning sign that our resulting posterior approximations might be unreliable."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#autocorrelation-2",
+    "href": "lectures/05-1-approx-posterior.html#autocorrelation-2",
+    "title": "Approximating the Posterior",
+    "section": "Autocorrelation",
+    "text": "Autocorrelation\n\n\n\n\nNo obvious patterns in the trace plot; dependence is relatively weak.\nAutocorrelation plot quickly drops off and is effectively 0 by lag 5.\nConfirmation that our Markov chain is mixing quickly.\n\ni.e., quickly moving around the range of posterior plausible \\pi values\ni.e., at least mimicking an independent sample."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#autocorrelation-3",
+    "href": "lectures/05-1-approx-posterior.html#autocorrelation-3",
+    "title": "Approximating the Posterior",
+    "section": "Autocorrelation",
+    "text": "Autocorrelation\n\n\n\n\nThis is an “unhealthy” Markov chain.\nTrace plot shows strong trends \\to autocorrelation in the Markov chain values.\nSlow decrease in autocorrelation plot indicates that the dependence between chain values does not quickly fade away.\n\nAt lag 20, the autocorrelation is still \\sim 90%."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#fast-vs.-slow-mixing-markov-chains",
+    "href": "lectures/05-1-approx-posterior.html#fast-vs.-slow-mixing-markov-chains",
+    "title": "Approximating the Posterior",
+    "section": "Fast vs. Slow Mixing Markov Chains",
+    "text": "Fast vs. Slow Mixing Markov Chains\n\nFast mixing chains:\n\nThe chains move “quickly” around the range of posterior plausible values\nThe autocorrelation among the chain values drops off quickly.\nThe effective sample size ratio is reasonably large.\n\nSlow mixing chains:\n\nThe chains move “slowly” around the range of posterior plauslbe values.\nThe autocorrelation among the chainv alues drops off very slowly.\nThe effective sample size ratio is small.\n\nWhat do we do if we have a slow mixing chain?\n\nIncrease the chain size :)\nThin the Markov chain :|"
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#hatr",
+    "href": "lectures/05-1-approx-posterior.html#hatr",
+    "title": "Approximating the Posterior",
+    "section": "\\hat{R}",
+    "text": "\\hat{R}\n\\hat{R} \\approx \\sqrt{\\frac{\\text{var}_{\\text{combined}}}{\\text{var}_{\\text{within}}}}\n\nwhere\n\n\\text{var}_{\\text{combined}} is the variability in \\theta across all chains combined.\n\\text{var}_{\\text{within}} is the typical variability within any individual chain.\n\n\\hat{R} compares the variability in sampled \\theta values across all chains combined with the variability within each individual change.\n\nIdeally, \\hat{R} \\approx 1, showing stability across chains.\n\\hat{R} &gt; 1 indicates instability with the variability in the combined chains larger than that of the variability within the chains.\n\\hat{R} &gt; 1.05 raises red flags about the stability of the simulation."
+  },
+  {
+    "objectID": "lectures/05-1-approx-posterior.html#hatr-1",
+    "href": "lectures/05-1-approx-posterior.html#hatr-1",
+    "title": "Approximating the Posterior",
+    "section": "\\hat{R}",
+    "text": "\\hat{R}\n\nWe can use the rhat() function from the bayesplot package to find \\hat{R}.\n\n\nrhat(bb_sim, pars = \"pi\")\n\n[1] 1.000245\n\n\n\nWe can see that our simulation is stable.\nIf we were to find \\hat{R} for the other (obviously bad) simulation, it would be 5.35 😱"
+  },
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "Abbreviated Syllabus",
+    "section": "",
+    "text": "Note: this is an abbreviated syllabus. The full syllabus is available through Classmate and/or Canvas.\n\nInstructor Information\n\nDr. Samantha Seals\nOffice: 4/344\n\n\n\nMeeting Times and Location\n\nMW 4:00-5:15 pm\nClassroom: 74/107\n\n\n\nOffice Hours\n\nMonday: 9:00-11:00 am\nTuesday: 9:00-11:00 am\nTuesday: 2:00-4:00 pm\nOther times by appointment\n\n\n\nGrading and Evaluation\nThe course grade will be determined as follows:\n\nAssignments (25%): Every module will finish with an assignment to demonstrate the knowledge gained. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nMidterm (25%): The midterm will be a take home midterm. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nProject (25%): Students will complete a project which will be presented in class the last week of classes.\nFinal Exam (25%): The final exam will be a take home final. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\n\n\n\nLate Policy\nAssigments have due dates, however, the dropboxes will not close until the end of the semester. All students are automatically granted “extensions” without question.\nNote that if there is not a submission when I go to grade (after the initial deadline), I will assign a zero (0) and request that you submit the assignment when you are able to. This is only for record keeping purposes. There is no penalty for submitting late and a full grade will be given upon review of your submission.\nExtensions are not available for the project, midterm, or final exam."
+  },
+  {
+    "objectID": "assignments/A1.html",
+    "href": "assignments/A1.html",
+    "title": "Assignment 1: Thinking Like a Bayesian",
+    "section": "",
+    "text": "1. Think of a recent situation in which you changed your mind. As with the restaurant example in class, make a diagram that includes your prior information, your new data that helped you change your mind, and your posterior conclusion.\n\n2. Odie is trying to convince Jon that Garfield is in the mood to steal lasagna, but Jon thinks there is only 0.10 probability that Garfield is in the mood to steal lasagna. Jon also believes that the probability Garfield raids the fridge given that he’s in a lasagna-stealing mood is 0.85, and the probability that Garfield raids the fridge given that he is NOT in a lasagna-stealing mood is 0.20. Odie then catches Garfield raiding the fridge. Given that Garfield raided the fridge, what is the probability that Garfield was in the mood to steal lasagna?\n\n3. Garfield’s fridge-raiding habit isn’t the only thing that follows him around the house. Arlene, Garfield’s on-again-off-again girlfriend, has two dispositions toward Garfield: happy or annoyed. In general, Arlene is happy with Garfield 55% of the time. You’ve noticed, however, that her disposition is related to how many times Garfield ignored her the day before. If Arlene is happy with Garfield today, there’s a 60% chance Garfield ignored her 0 times, a 35% chance he ignored her between 1 and 3 times, and a 5% chance he ignored her more than 3 times yesterday. If Arlene is annoyed with Garfield today, there’s a 10% chance Garfield ignored her 0 times, a 55% chance he ignored her between 1 and 3 times, and a 35% chance he ignored her more than 3 times yesterday.\na. Use the given information to complete the following table.\n\n\n\nIgnores yesterday\nP(ignores | happy)\nP(ignores | annoyed)\n\n\n\n\n0 times\n\n\n\n\n1–3 times\n\n\n\n\nMore than 3 times\n\n\n\n\n\nb. Today’s a new day. Without knowing anything about how many times Garfield ignored Arlene yesterday, what’s the probability that Arlene is happy with Garfield? Which piece of Bayes’ Rule does this number represent?\nc. You’ve been spying on Garfield all day and have tallied that he ignored Arlene a whopping 4 times yesterday. How likely is Arlene to have been ignored 4 times if she’s happy with Garfield today? Which part of the Bayes’ Rule equation is this?\nd. What is the posterior probability that Arlene is happy with Garfield today, given that Garfield ignored her 4 times yesterday?"
+  },
+  {
+    "objectID": "assignments/A2.html",
+    "href": "assignments/A2.html",
+    "title": "Assignment 2: Conjugate Families",
+    "section": "",
+    "text": "Scenario 1: Every night, the same thing happens: Brain concocts an elaborate scheme to take over the world, and somehow it never quite works out. Whether it’s Pinky’s blundering, an unexpected plot twist, or the Warner siblings’ interference, Brain’s plans have a way of falling apart at the last moment.\nThe Warner siblings — Yakko, Wakko, and Dot — have each been keeping tabs on Brain’s success (or lack thereof) while atop the Warners’ water tower. Each sibling has been independently tracking whether Brain’s plan was foiled on any given day, and each comes into the analysis with the same prior belief: a Beta(2, 5) distribution for \\pi, the probability that Brain’s plan gets foiled on any given day. This prior reflects a shared suspicion that Brain usually gets pretty far with his plans, but not always.\nThe current issue is that each sibling has been watching for a different stretch of time, and they don’t always agree on what they saw. For each sibling, you’ll update the Beta(2, 5) prior with their observed data and summarize the resulting posterior distribution.\na. After carefully observing Brain’s schemes over 50 days, Dot recorded that 18 of Brain’s plans were successfully foiled. Summarize Dot’s analysis using the functions demonstrated in lecture.\nb. Yakko has been keeping his own records from a different observation period. In his records, Brain’s plans were foiled 12 out of 25 days. Summarize Yakko’s analysis using the functions demonstrated in lecture.\nc. In Wakko’s records, Brain’s plans were foiled 18 out of 25 days. Summarize Wakko’s analysis using the functions demonstrated in lecture.\nd. How do Dot, Yakko, and Wakko’s posterior models compare to one another?\nScenario 2: Yakko, Wakko, and Dot have a long-standing rivalry with the Goodfeathers, Bobby, Squit, and Pesto, who are always pecking around the WB studio lot. The siblings suspect the Goodfeathers show up at an annoyingly high rate throughout the day, and Dot has decided to model this formally. Let \\lambda represent the rate at which the Goodfeathers appear per hour on the studio lot.\na. Dot believes the Goodfeathers show up about 8 times per hour on average, with a standard deviation of 0.5 appearances. Tune and plot an appropriate Gamma(s, r) prior model for \\lambda.\nb. Yakko and Wakko help out by each staking out different parts of the lot. Across 8 hours of observation, they recorded the following Goodfeather appearances: \\{3,9,7,11,8,6,10, 9\\}. Update Dot’s prior model with this data to find the posterior model for \\lambda.\nc. Comment on how the siblings’ understanding of \\lambda changed from the prior to the posterior based on their observations. Did the Goodfeathers show up as often as Dot feared?\nScenario 3: Brain has abandoned his usual schemes and pivoted to high finance. His latest plan for world domination involves cornering the market on Acme Corp stock — the same company that supplies every single product on the WB studio lot. Pinky is thrilled. Brain is focused. Let μ represent the average dollar amount that Acme Corp stock goes up or down in a one-day period.\na. Brain has reviewed Acme Corp’s historical performance. He believes the stock increases by an average of 7.2 dollars per day, with a standard deviation of 2.6 dollars. Tune and plot an appropriate Normal prior model for \\mu.\nb. According to your plot, does it seem plausible that Acme Corp stock would increase by an average of 7.6 dollars in a day? Why or why not?\nc. Does it seem plausible that the stock would increase by an average of 4 dollars in a day? Why or why not?\nd. Pinky recorded the following daily changes over a random sample of 4 days: \\{−0.7,1.2,4.5,−4.0\\}. Update Brain’s prior model with this data to find the posterior model for \\mu.\ne. Comment on how Brain’s understanding of \\mu evolved from the prior to the posterior based on Pinky’s observed data. Did the stock perform as well as Brain had hoped?"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Applied Bayesian Analysis - Fall 2026",
+    "section": "",
+    "text": "Welcome to Applied Bayesian Analysis for Fall 2026!\nThe initial development of this course was supported by the 2023 BATS program, funded by NSF IUSE: EHR program with award numbers 2215879, 2215920, and 2215709."
+  },
+  {
     "objectID": "lectures/03-1-conjugate-families.html#introduction-gamma-poisson-model",
     "href": "lectures/03-1-conjugate-families.html#introduction-gamma-poisson-model",
     "title": "Conjugate Families",
@@ -1041,27 +1426,6 @@
     "title": "Conjugate Families",
     "section": "Wrap Up",
     "text": "Wrap Up\n\nWe have now covered the main conjugate families.\n\nBeta-Binomial: binary outcomes\nGamma-Poisson: count outcomes\nNormal-Normal: continuous outcomes\n\nNext:\n\nBalance and sequentiality\nHow to use the posterior distribution"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Applied Bayesian Analysis - Fall 2026",
-    "section": "",
-    "text": "Welcome to Applied Bayesian Analysis for Fall 2026!\nThe initial development of this course was supported by the 2023 BATS program, funded by NSF IUSE: EHR program with award numbers 2215879, 2215920, and 2215709."
-  },
-  {
-    "objectID": "assignments/A1.html",
-    "href": "assignments/A1.html",
-    "title": "Assignment 1: Thinking Like a Bayesian",
-    "section": "",
-    "text": "1. Think of a recent situation in which you changed your mind. As with the restaurant example in class, make a diagram that includes your prior information, your new data that helped you change your mind, and your posterior conclusion.\n\n2. Odie is trying to convince Jon that Garfield is in the mood to steal lasagna, but Jon thinks there is only 0.10 probability that Garfield is in the mood to steal lasagna. Jon also believes that the probability Garfield raids the fridge given that he’s in a lasagna-stealing mood is 0.85, and the probability that Garfield raids the fridge given that he is NOT in a lasagna-stealing mood is 0.20. Odie then catches Garfield raiding the fridge. Given that Garfield raided the fridge, what is the probability that Garfield was in the mood to steal lasagna?\n\n3. Garfield’s fridge-raiding habit isn’t the only thing that follows him around the house. Arlene, Garfield’s on-again-off-again girlfriend, has two dispositions toward Garfield: happy or annoyed. In general, Arlene is happy with Garfield 55% of the time. You’ve noticed, however, that her disposition is related to how many times Garfield ignored her the day before. If Arlene is happy with Garfield today, there’s a 60% chance Garfield ignored her 0 times, a 35% chance he ignored her between 1 and 3 times, and a 5% chance he ignored her more than 3 times yesterday. If Arlene is annoyed with Garfield today, there’s a 10% chance Garfield ignored her 0 times, a 55% chance he ignored her between 1 and 3 times, and a 35% chance he ignored her more than 3 times yesterday.\na. Use the given information to complete the following table.\n\n\n\nIgnores yesterday\nP(ignores | happy)\nP(ignores | annoyed)\n\n\n\n\n0 times\n\n\n\n\n1–3 times\n\n\n\n\nMore than 3 times\n\n\n\n\n\nb. Today’s a new day. Without knowing anything about how many times Garfield ignored Arlene yesterday, what’s the probability that Arlene is happy with Garfield? Which piece of Bayes’ Rule does this number represent?\nc. You’ve been spying on Garfield all day and have tallied that he ignored Arlene a whopping 4 times yesterday. How likely is Arlene to have been ignored 4 times if she’s happy with Garfield today? Which part of the Bayes’ Rule equation is this?\nd. What is the posterior probability that Arlene is happy with Garfield today, given that Garfield ignored her 4 times yesterday?"
-  },
-  {
-    "objectID": "syllabus.html",
-    "href": "syllabus.html",
-    "title": "Abbreviated Syllabus",
-    "section": "",
-    "text": "Note: this is an abbreviated syllabus. The full syllabus is available through Classmate and/or Canvas.\n\nInstructor Information\n\nDr. Samantha Seals\nOffice: 4/344\n\n\n\nMeeting Times and Location\n\nMW 4:00-5:15 pm\nClassroom: 74/107\n\n\n\nOffice Hours\n\nMonday: 9:00-11:00 am\nTuesday: 9:00-11:00 am\nTuesday: 2:00-4:00 pm\nOther times by appointment\n\n\n\nGrading and Evaluation\nThe course grade will be determined as follows:\n\nAssignments (25%): Every module will finish with an assignment to demonstrate the knowledge gained. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nMidterm (25%): The midterm will be a take home midterm. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\nProject (25%): Students will complete a project which will be presented in class the last week of classes.\nFinal Exam (25%): The final exam will be a take home final. The resulting .html file should be submitted to the designated Assignment on Canvas by 11:59 pm on the specified date (see Canvas).\n\n\n\nLate Policy\nAssigments have due dates, however, the dropboxes will not close until the end of the semester. All students are automatically granted “extensions” without question.\nNote that if there is not a submission when I go to grade (after the initial deadline), I will assign a zero (0) and request that you submit the assignment when you are able to. This is only for record keeping purposes. There is no penalty for submitting late and a full grade will be given upon review of your submission.\nExtensions are not available for the project, midterm, or final exam."
   },
   {
     "objectID": "lectures/2-1-conjugate-families.html#introduction-beta-binomial-model",
