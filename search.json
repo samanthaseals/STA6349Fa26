@@ -7,6 +7,321 @@
     "text": "Week 1 (08/17 & 08/19)\n\n\n\n\n\nLectures:\n\nMonday: Foundations of Probability Distributions .qmd\nWednesday: Thinking Like a Bayesian (Part 1) .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 2 (08/24 & 08/26)\n\n\n\n\n\nLectures:\n\nMonday: Thinking Like a Bayesian (Part 2) .qmd\nWednesday: Beta-Binomial Model .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 3 (08/31 & 09/02)\n\n\n\n\n\nLectures:\n\nMonday: Conjugate Families .qmd\nWednesday: Balance and Sequentiality - read Chapter 4 of Bayes Rules! at home\n\n\n\n\n\n\n\n\n\n\nWeek 4 (09/07 & 09/09)\n\n\n\n\n\nActivities: Balance and Sequentiality\n\n\n\n\n\n\n\n\n\nWeek 5 (09/14 & 09/16)\n\n\n\n\n\nLectures:\n\nMonday: Simulation of the Posterior .qmd\nWednesday: Simulation of the Posterior .qmd\n\n\n\n\n\n\n\n\n\n\nWeek 6 (09/21 & 09/23)\n\n\n\n\n\nLectures:\n\nMonday: Bayesian Inference .qmd\n\nEES Project:\n\nWednesday: introduce project\n\nBegin “project notebook”\nGet data imported to R\nLink research objectives to variable names in dataset\nBegin recording questions for collaborator\n\n\n\n\n\n\n\n\n\n\n\nWeek 7 (09/28 & 09/30)\n\n\n\n\n\nActivity:\n\nMonday: Exploring Bayesian Inference (see Canvas)\n\nLectures:\n\nWednesday: Bayesian Generalized Linear Models.qmd\n\n\n\n\n\n\n\n\n\n\nWeek 8 (10/05 & 10/07)\n\n\n\n\n\nIn Class Project 1:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, they will formally introduce you to the project.\nYou will also discuss their research objectives and your initial thoughts on data analysis.\n\nUse this meeting to verify that you understand what questions you should be answering with a statistical model.\n\n\n\nEES Project:\n\nNumerical and graphical summaries of data\n\n\n\n\n\n\n\n\n\n\nWeek 9 (10/12 & 10/14)\n\n\n\n\n\nTake-home midterm opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss their project and your initial thoughts on data analysis.\n\n\n\n\n\n\n\n\n\n\nWeek 10 (10/19 & 10/21)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models: Random Intercepts\nBayesian Hierarchical Models: Random Slopes\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 11 (10/26 & 10/28)\n\n\n\n\n\nLectures:\n\nBayesian Hierarchical Models:\nCommunicating Results and Writing Statistical Methods\n\nEES Project:\n\nYou should be working on the analysis for your collaborator\n\n\n\n\n\n\n\n\n\n\nWeek 12 (11/02 & 11/04)\n\n\n\n\n\nEES Project:\n\nIndividual meetings with Dr. Seals\nYour collaborator should be reaching out to schedule a meeting for next week.\n\nIn this meeting, you will present your analysis results to your collaborator.\n\nUse this meeting to communicate the model results in their language.\n\n\n\n\n\n\n\n\n\n\n\n\nWeek 13 (11/09 & 11/11)\n\n\n\n\n\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nWeek 14 (11/16 & 11/18)\n\n\n\n\n\nIn Class Project 2:\n\nProject is assigned and collaborative work time will be provided on Monday.\nBrief oral presentations (with slides) will be given on Wednesday.\n\nEES Project:\n\nAny necessary updates to your analysis must be completed and sent to your collaborator this week.\nCommunicate with your collaborator to schedule a meeting for the week after Thanksgiving (week of 11/30)\n\n\n\n\n\n\n\n\n\n\nWeek 15 (11/30 & 12/02)\n\n\n\n\n\nTake-home final opens Monday and is due Friday.\nDr. Seals will be available during class time on Monday and Wednesday to answer questions.\nEES Project:\n\nYou are meeting your collaborator this week to discuss your analysis and results.\n\n\n\n\n\n\n\n\n\n\nExam Week\n\n\n\n\n\nEES Project:\n\nCollaborative final paper due."
   },
   {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#introduction",
+    "href": "lectures/10-1-bayesian-gzlm.html#introduction",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nLast week, we focused on linear regression appropriate for continuous outcomes that are approximately normally distributed.\n\n\n\\hat{y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nInterpretation of \\hat{\\beta}_0 (y-intercept): The expected value of y when all predictors are equal to zero.\nInterpretation of \\hat{\\beta}_i (slopes): The expected change in y for a one-unit increase in x_i, holding all other predictors constant."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#introduction-1",
+    "href": "lectures/10-1-bayesian-gzlm.html#introduction-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nToday we will cover binary logistic regression.\nCategorical data: Logistic\n\n\n\\ln\\left(\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}\\right) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nCount data: Poisson/negative binomial\n\n\n\\ln(\\hat{y}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#introduction-2",
+    "href": "lectures/10-1-bayesian-gzlm.html#introduction-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nWithout going into statistical theory, the left hand side of the equation is affected by the model’s link function.\n\nNormal: Identity link\n\nWe are modeling y directly\n\nLogistic: Logit link\n\nWe are modeling the logit of \\pi\n\nPoisson/Negative Binomial: Log link\n\nWe are modeling the log of y"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#introduction-3",
+    "href": "lectures/10-1-bayesian-gzlm.html#introduction-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nThe left hand side dictates how we provide interpretations.\n\nIf we are not modeling y directly, we need to transform back to the original scale for interpretation purposes.\n\nThere are other link functions that can be used in generalized linear models, as long as the model converges.\n\nWhen done, it is to transform the left hand side to be more interpretable.\n\nRemember that if we have \\ln() on the left hand side, we can exponentiate to get back to the original scale.\n\nThis means that our interpretations will be in terms of multiplicative changes rather than additive changes.\nFor each increase in x, we will multiply the left hand side by some factor rather than add some amount to it."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example",
+    "href": "lectures/10-1-bayesian-gzlm.html#example",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nMickey Mouse and his friends have been organizing a series of rescue missions around the clubhouse. Each mission is led by one of four possible leaders (Mickey, Minnie, Donald, or Goofy) and the goal is to determine which factors make a mission most likely to succeed.\nFor each mission, the team records:\n\nmission_success: whether the rescue mission succeeded (1) or failed (0),\ncharacter: the leader of the mission (Mickey, Minnie, Donald, or Goofy), and\nstealth_score: a numerical measure (0–10) of how quietly and carefully the mission was executed; higher values indicate more stealthy, well-coordinated missions.\n\nLet’s now set up a logistic regression to predict mission success as a function of who led the mission, the stealth score, and the interaction between the two. In R, our model will be\n\n\n\\text{mission\\_success} \\sim \\text{character} + \\text{stealth\\_score} + \\text{character}:\\text{stealth\\_score}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-1",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nRunning the model,\n\n\nmickey_model &lt;- stan_glm(mission_success ~ character + stealth_score + character:stealth_score,\n                         data = mickey, \n                         family = binomial,\n                         prior_intercept = normal(0, 1, autoscale = TRUE),\n                         prior = normal(0, 1, autoscale = TRUE),\n                         chains = 4, iter = 5000*2, seed = 8716,\n                         prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 4.9e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.49 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.32 seconds (Warm-up)\nChain 1:                0.326 seconds (Sampling)\nChain 1:                0.646 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 6e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.318 seconds (Warm-up)\nChain 2:                0.339 seconds (Sampling)\nChain 2:                0.657 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 6e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.322 seconds (Warm-up)\nChain 3:                0.345 seconds (Sampling)\nChain 3:                0.667 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 5e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.32 seconds (Warm-up)\nChain 4:                0.392 seconds (Sampling)\nChain 4:                0.712 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-2",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nExamining the results,\n\n\ntidy(mickey_model, conf.int = TRUE)\n\n\n\n\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n0.4414265\n1.1264874\n-1.3942267\n2.2894159\n\n\ncharacterDonald\n-1.4442206\n1.4444003\n-3.8256554\n0.9512398\n\n\ncharacterGoofy\n-0.6628119\n1.2514275\n-2.7259029\n1.4028188\n\n\ncharacterMinnie\n1.7406833\n1.5242655\n-0.6741884\n4.3130432\n\n\nstealth_score\n0.2095191\n0.1844345\n-0.0874952\n0.5182348\n\n\ncharacterDonald:stealth_score\n0.2929386\n0.2583728\n-0.1147628\n0.7324733\n\n\ncharacterGoofy:stealth_score\n-0.0583538\n0.2047462\n-0.3979333\n0.2784479\n\n\ncharacterMinnie:stealth_score\n0.1376708\n0.2508587\n-0.2721842\n0.5599432"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-3",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nThis results in the model,\n\n\n\\begin{align*}\n\\ln\\left(\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}\\right) =& \\  -0.193  \\\\\n& \\ -1.005 \\text{ Donald} + 0.228 \\text{ Goofy} + 1.917 \\text{ Minnie} + 0.296 \\text{ stealth} \\  \\\\\n& \\ + 0.185 \\text{ Donald} \\times \\text{stealth} -0.198 \\text{ Goofy}\\times \\text{stealth} \\\\\n& \\ \\ \\ \\ \\ \\ +  0.403 \\text{ Minnie} \\times \\text{stealth}\n\\end{align*}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-4",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nInterpreting the coefficients:\n\nIntercept (\\hat{\\beta}_0): The log-odds of mission success when Mickey leads (reference category) and the stealth score is 0.\nCharacter coefficients (\\hat{\\beta}_1, \\hat{\\beta}_2, \\hat{\\beta}_3): The change in log-odds of mission success when Minnie, Donald, or Goofy lead, respectively, compared to Mickey, holding stealth score constant.\nStealth score coefficient (\\hat{\\beta}_4): The change in log-odds of mission success for a one-unit increase in stealth score when Mickey leads.\nInteraction coefficients (\\hat{\\beta}_5, \\hat{\\beta}_6, \\hat{\\beta}_7): The additional change in log-odds of mission success for a one-unit increase in stealth score when Minnie, Donald, or Goofy lead, respectively, compared to Mickey."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-5",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-5",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nWhat if we want to separate into individual models for each friend?"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-6",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-6",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nDonald’s model:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-7",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-7",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nGoofy’s model:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-8",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-8",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nMinnie’s model:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-9",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-9",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nMickey’s model:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#odds-ratios",
+    "href": "lectures/10-1-bayesian-gzlm.html#odds-ratios",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Odds Ratios",
+    "text": "Odds Ratios\n\nRecall that we do not want to interpret in terms of the log odds\n\n\n\\ln\\left(\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}\\right)\n\n\nInstead, we want to interpret in terms of the odds themselves\n\n\n\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#odds-ratios-1",
+    "href": "lectures/10-1-bayesian-gzlm.html#odds-ratios-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Odds Ratios",
+    "text": "Odds Ratios\n\nTo convert from log-odds to odds, we exponentiate the coefficients.\n\n\n\\text{odds ratio}_i = \\exp\\{ \\hat{\\beta}_i \\}\n\n\nNote (1), if we are reporting odds ratios rather than \\hat{\\beta}_i, then:\n\nAn odds ratio of 1 \\to no effect.\nAn odds ratio greater than 1 \\to increase in odds.\nAn odds ratio less than 1 \\to decrease in odds.\n\nNote (2), if we are reporting odds ratios rather than \\hat{\\beta}_i, then we also want to report the intervals for the odds ratios and not the intervals for \\hat{\\beta}_i."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-10",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-10",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nWe can request OR and their corresponding CI this out of tidy(),\n\n\ntidy(mickey_model, conf.int = TRUE, exponentiate = TRUE)\n\n\n\n\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n1.5549237\n1.7516020\n0.2480248\n9.869171\n\n\ncharacterDonald\n0.2359299\n0.3407772\n0.0218041\n2.588917\n\n\ncharacterGoofy\n0.5154001\n0.6449858\n0.0654870\n4.066647\n\n\ncharacterMinnie\n5.7012375\n8.6901996\n0.5095698\n74.667375\n\n\nstealth_score\n1.2330849\n0.2274235\n0.9162232\n1.679061\n\n\ncharacterDonald:stealth_score\n1.3403604\n0.3463127\n0.8915776\n2.080219\n\n\ncharacterGoofy:stealth_score\n0.9433162\n0.1931404\n0.6717068\n1.321078\n\n\ncharacterMinnie:stealth_score\n1.1475977\n0.2878848\n0.7617139\n1.750573"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#odds-ratios-2",
+    "href": "lectures/10-1-bayesian-gzlm.html#odds-ratios-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Odds Ratios",
+    "text": "Odds Ratios\n\nBut… we have an interaction in our model?\nWe can take the same approach as finding the individual slopes!\n\nTake the bounds and add/subtract as necessary.\n\nRemember that we need to add on the original scale, not the converted odds ratios."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-11",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-11",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nLet’s look at our model results, but only look at the CI results for stealth score and the interactions.\n\n\ntidy(mickey_model, conf.int = TRUE) %&gt;% \n  select(term, conf.low, conf.high) %&gt;%\n  filter(str_detect(term, \"stealth\")) \n\n\n\n\n\nterm\nconf.low\nconf.high\n\n\n\n\nstealth_score\n-0.0874952\n0.5182348\n\n\ncharacterDonald:stealth_score\n-0.1147628\n0.7324733\n\n\ncharacterGoofy:stealth_score\n-0.3979333\n0.2784479\n\n\ncharacterMinnie:stealth_score\n-0.2721842\n0.5599432"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-12",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-12",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nFor Mickey,\n\nLB: .000111\nUB: 0.6076\n\nFor Donald,\n\nLB: .000111 - 0.2135 = -0.2134\nUB: 0.6076 + 0.5965 = 1.2041\n\nFor Goofy,\n\nLB: .000111 - 0.5299 = -0.5298\nUB: 0.6076 + 0.1372 = 0.7448\n\nFor Minnie,\n\nLB: .000111 - 0.2653 = -0.2652\nUB: 0.6076 + 0.5519 = 1.1595"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-13",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-13",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nComparing side by side with CI for OR,\n\n\n\n\nFriend\nCI for \\beta\nCI for OR\n\n\n\n\nMickey\n(0.000111, 0.6076)\n(1.00, 1.84)\n\n\nDonald\n(-0.2134, 1.204)\n(0.81, 3.33)\n\n\nGoofy\n(-0.5298, 0.7448)\n(0.59, 2.11)\n\n\nMinnie\n(-0.2652, 1.1595)\n(0.77, 3.19)"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-14",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-14",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nHow would I report the results in a table?\n\n\n\n\nFriend\nOR (95% CI for OR)\n\n\n\n\nMickey\n1.23 (1.00, 1.84)\n\n\nDonald\n1.62 (0.81, 3.33)\n\n\nGoofy\n1.11 (0.59, 2.11)\n\n\nMinnie\n1.53 (0.77, 3.19)\n\n\n\n\nFor all characters, as stealth score increases, the odds of mission success increase.\nThe strength of this effect varies by character, but the 95% CIs for all characters include 1, indicating a null effect."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#visualizing-the-model",
+    "href": "lectures/10-1-bayesian-gzlm.html#visualizing-the-model",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Visualizing the Model",
+    "text": "Visualizing the Model\n\nWe can put together a data visualization to help us understand what’s going on in our model.\nIn this example, we will have strength on the x-axis and define lines by the friend.\n\ni.e., I am graphing the individual models we saw earlier.\n\nFirst, we have to find predicted values,\n\n\nmickey &lt;- mickey %&gt;%\n  mutate(p_mickey = exp(-0.193 + 0.296*stealth_score) / (1+exp(-0.193 + 0.296*stealth_score)),\n         p_minnie = exp(1.724 + 0.426*stealth_score) / (1+exp(1.724 + 0.426*stealth_score)),\n         p_donald = exp(-1.198 + 0.481*stealth_score) / (1+exp(-1.198 + 0.481*stealth_score)),\n         p_goofy  = exp(0.035 + 0.101*stealth_score) / (1+exp(0.035 + 0.101*stealth_score)))"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-15",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-15",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nThen, we can graph using these predicted values\n\n\nmickey %&gt;% ggplot(aes(x = stealth_score, y = mission_success)) +\n  geom_point(size = 3) +\n  geom_line(aes(y = p_mickey, color = \"black\")) +\n  geom_line(aes(y = p_minnie, color = \"red\")) +\n  geom_line(aes(y = p_donald, color = \"blue\")) +\n  geom_line(aes(y = p_goofy, color = \"green\")) +\n  labs(x = \"Stealth Score\",\n       y = \"Probability of Mission Success\",\n       color = \"Leader\") +\n  scale_color_manual(labels = c(\"Mickey\", \"Minnie\", \"Donald\", \"Goofy\"),\n                     values = c(\"black\", \"red\", \"blue\", \"green\")) +\n  theme_bw()"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-16",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-16",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#introduction-4",
+    "href": "lectures/10-1-bayesian-gzlm.html#introduction-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nContinuous data: Linear\n\n\n\\hat{y_i} = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nCategorical data: Logistic\n\n\n\\ln\\left(\\frac{\\hat{\\pi_i}}{1-\\hat{\\pi_i}}\\right) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nCount data: Poisson/negative binomial\n\n\n\\ln(\\hat{y}_i) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#poisson-regression",
+    "href": "lectures/10-1-bayesian-gzlm.html#poisson-regression",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Poisson Regression",
+    "text": "Poisson Regression\n\nGeneric code for Poisson regression:\n\n\nposterior_model &lt;- stan_glm(y ~ x1 + x2 + ... + xk, \n                            data = dataset_name, \n                            family = poisson,\n                            prior_intercept = normal(0, 1, autoscale = TRUE),\n                            prior = normal(0, 1, autoscale = TRUE), \n                            chains = 4, iter = 5000*2, seed = 84735, \n                            prior_PD = FALSE)"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-set-up",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-set-up",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Set Up",
+    "text": "Example: Set Up\n\nAfter a few successful rescue missions, Mickey Mouse and his friends noticed something strange: every time they set out on a new mission, the number of alert beacons that went off around the clubhouse varied. Sometimes the team moved silently, but other times the entire operation echoed with crashes, clanks, and Donald’s famous quacking. To understand what’s going on, the team started tracking three pieces of information for each mission:\n\nalerts_triggered: the number of alert beacons that went off during the mission (possible values: 0, 1, 2, 3, …).\ncharacter: which character led the mission (Mickey, Minnie, Donald, or Goofy).\nstealth_score: how carefully the team tried to move on a scale from 0 to 10, where higher values mean a quieter, more careful mission."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\npoisson_posterior &lt;- stan_glm(alerts_triggered ~ character + stealth_score, \n                            data = friends, \n                            family = poisson,\n                            prior_intercept = normal(0, 1, autoscale = TRUE),\n                            prior = normal(0, 1, autoscale = TRUE), \n                            chains = 4, iter = 5000*2, seed = 84735, \n                            prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 4.1e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.41 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.131 seconds (Warm-up)\nChain 1:                0.153 seconds (Sampling)\nChain 1:                0.284 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 7e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.126 seconds (Warm-up)\nChain 2:                0.152 seconds (Sampling)\nChain 2:                0.278 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 7e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.126 seconds (Warm-up)\nChain 3:                0.145 seconds (Sampling)\nChain 3:                0.271 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 7e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.13 seconds (Warm-up)\nChain 4:                0.158 seconds (Sampling)\nChain 4:                0.288 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson-1",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nExamining the results,\n\n\ntidy(poisson_posterior, conf.int = TRUE, exponentiate = FALSE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n1.0819361\n0.2610216\n0.6485256\n1.5011017\n\n\ncharacterDonald\n-0.0304708\n0.1993844\n-0.3599919\n0.3003308\n\n\ncharacterGoofy\n-0.1411428\n0.1974020\n-0.4685098\n0.1875543\n\n\ncharacterMinnie\n-0.5974829\n0.2404799\n-0.9991978\n-0.2017999\n\n\nstealth_score\n-0.1316629\n0.0382823\n-0.1941604\n-0.0697889\n\n\n\n\n\n\n\n\\ln(\\hat{y}) = 1.48 + 0.51 \\text{ Donald} + 0.26 \\text{ Goofy} - 0.58 \\text{ Minnie} - 0.24 \\text{ stealth}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson-2",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nWe are interested in the multiplicative effect on the expected count, so we exponentiate the coefficients and credible intervals:\n\n\ntidy(poisson_posterior, conf.int = TRUE, exponentiate = TRUE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n2.9503863\n0.7701144\n1.9127186\n4.4866294\n\n\ncharacterDonald\n0.9699888\n0.1934007\n0.6976820\n1.3503054\n\n\ncharacterGoofy\n0.8683653\n0.1714170\n0.6259344\n1.2062958\n\n\ncharacterMinnie\n0.5501948\n0.1323108\n0.3681747\n0.8172584\n\n\nstealth_score\n0.8766365\n0.0335597\n0.8235258\n0.9325907"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson-3",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nHow would I report the results in a table?\n\n\n\n\nPredictor\nIRR (95% CI)\n\n\n\n\nDonald\n1.67 (1.21, 2.30)\n\n\nGoofy\n1.30 (0.95, 1.80)\n\n\nMinnie\n0.56 (0.36, 0.85)\n\n\nStealth\n0.79 (0.75, 0.84)"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson-4",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nIncident Rate Ratios (IRR): multiplicative effect on the expected count for a one unit increase in the predictor, holding other predictors constant.\nAs compared to Mickey,\n\nDonald is expected to trigger 1.67 times as many alerts (67% more).\nGoofy is expected to trigger 1.30 times as many alerts (30% more).\nMinnie is expected to trigger 0.56 times as many alerts (44% fewer).\n\nAs stealth score increases, the expected number of alerts triggered decreases.\n\nFor a one-unit increase in stealth-score, the expected number of alerts triggered decreases by 21%."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson-5",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson-5",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nTo visualize our model, we first find predicted values,\n\n\nfriends &lt;- friends %&gt;%\n  mutate(p_mickey = exp(1.48-0.235*stealth_score),\n         p_donald = exp(1.48+0.51-0.235*stealth_score),\n         p_goofy  = exp(1.48+0.26-0.235*stealth_score),\n         p_minnie = exp(1.48-0.58-0.235*stealth_score))\n\n\nThen, construct the ggplot,\n\n\nfriends %&gt;% ggplot(aes(x = stealth_score, y = alerts_triggered)) +\n  geom_point(size = 3) +\n  geom_line(aes(y = p_mickey, color = \"Mickey\")) +\n  geom_line(aes(y = p_donald, color = \"Donald\")) +\n  geom_line(aes(y = p_goofy,  color = \"Goofy\")) +\n  geom_line(aes(y = p_minnie, color = \"Minnie\")) +\n  labs(x = \"Stealth Score\",\n       y = \"Expected Number of Alerts Triggered\",\n       color = \"Character\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-poisson-6",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-poisson-6",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#negative-binomial-regression",
+    "href": "lectures/10-1-bayesian-gzlm.html#negative-binomial-regression",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Negative Binomial Regression",
+    "text": "Negative Binomial Regression\n\nGeneric code for negative binomial regression:\n\n\nposterior_model &lt;- stan_glm(y ~ x1 + x2 + ... + xk, \n                            data = dataset_name, \n                            family = neg_binomial_2,\n                            prior_intercept = normal(0, 1, autoscale = TRUE),\n                            prior = normal(0, 1, autoscale = TRUE), \n                            chains = 4, iter = 5000*2, seed = 84735, \n                            prior_PD = FALSE)"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-set-up-1",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-set-up-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Set Up",
+    "text": "Example: Set Up\n\nAfter weeks of studying the clubhouse rescue missions, Mickey and friends have noticed a problem: some missions are wildly unpredictable. When Donald Duck takes charge, the number of alert beacons that go off during a mission varies dramatically. On some days, his missions are surprisingly quiet. On others, Donald’s shouting and tripping set off nearly every beacon in the clubhouse!\n\n\nfriends2 %&gt;% summarize(mean(alerts_triggered),\n                       var(alerts_triggered))\n\n\n\n\n\nmean(alerts_triggered)\nvar(alerts_triggered)\n\n\n\n\n1.406667\n2.752975\n\n\n\n\n\n\n\nWe can see that the mean and variance do not meet the assumption for the Poisson distribution."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nnegbin_posterior &lt;- stan_glm(alerts_triggered ~ character + stealth_score, \n                             data = friends2, \n                             family = neg_binomial_2,\n                             prior_intercept = normal(0, 1, autoscale = TRUE),\n                             prior = normal(0, 1, autoscale = TRUE), \n                             chains = 4, iter = 5000*2, seed = 84735, \n                             prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 4.5e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.45 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.274 seconds (Warm-up)\nChain 1:                0.417 seconds (Sampling)\nChain 1:                0.691 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 1.1e-05 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.27 seconds (Warm-up)\nChain 2:                0.344 seconds (Sampling)\nChain 2:                0.614 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 1.1e-05 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.281 seconds (Warm-up)\nChain 3:                0.366 seconds (Sampling)\nChain 3:                0.647 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 1e-05 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.1 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.268 seconds (Warm-up)\nChain 4:                0.334 seconds (Sampling)\nChain 4:                0.602 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-1",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\ntidy(negbin_posterior, conf.int = TRUE, exponentiate = FALSE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n1.3944070\n0.3309170\n0.8593790\n1.9491141\n\n\ncharacterDonald\n-0.0972187\n0.2512058\n-0.5127541\n0.3171353\n\n\ncharacterGoofy\n0.0769120\n0.2470158\n-0.3405052\n0.4914605\n\n\ncharacterMinnie\n-1.2007545\n0.2948534\n-1.7034845\n-0.7247421\n\n\nstealth_score\n-0.1457349\n0.0467810\n-0.2261993\n-0.0685119\n\n\n\n\n\n\n\n\\ln(\\hat{y}) = 1.39 - 0.10 \\text{ Donald} + 0.08 \\text{ Goofy} - 1.20 \\text{ Minnie} - 0.15 \\text{ stealth}"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-2",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nWe are interested in the multiplicative effect on the expected count, so we exponentiate the coefficients and credible intervals:\n\n\ntidy(negbin_posterior, conf.int = TRUE, exponentiate = TRUE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n4.0325824\n1.3344501\n2.3616937\n7.0224637\n\n\ncharacterDonald\n0.9073575\n0.2279334\n0.5988440\n1.3731883\n\n\ncharacterGoofy\n1.0799470\n0.2667639\n0.7114109\n1.6347020\n\n\ncharacterMinnie\n0.3009670\n0.0887412\n0.1820481\n0.4844495\n\n\nstealth_score\n0.8643868\n0.0404368\n0.7975592\n0.9337823"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-3",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nHow would I report the results in a table?\n\n\n\n\nPredictor\nIRR (95% CI)\n\n\n\n\nDonald\n0.91 (0.60, 1.37)\n\n\nGoofy\n1.08 (0.71, 1.63)\n\n\nMinnie\n0.30 (0.18, 0.48)\n\n\nStealth\n0.86 (0.80, 0.93)"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-4",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nIncident Rate Ratios (IRR): multiplicative effect on the expected count for a one unit increase in the predictor, holding other predictors constant.\nAs compared to Mickey,\n\nDonald is expected to trigger 0.91 times as many alerts (9% fewer).\nGoofy is expected to trigger 1.08 times as many alerts (8% increase).\nMinnie is expected to trigger 0.30 times as many alerts (70% fewer).\n\nAs stealth score increases, the expected number of alerts triggered decreases.\n\nFor a one-unit increase in stealth-score, the expected number of alerts triggered decreases by 14%."
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-5",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-5",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nTo visualize our model, we first find predicted values,\n\n() = 1.39 - 0.10 + 0.08 - 1.20 - 0.15 \n\nfriends2 &lt;- friends2 %&gt;%\n  mutate(p_mickey = exp(1.39 - 0.15*stealth_score),\n         p_donald = exp(1.39 - 0.10 -0.15*stealth_score),\n         p_goofy  = exp(1.39 + 0.08 -0.15*stealth_score),\n         p_minnie = exp(1.39 - 1.20 -0.15*stealth_score))\n\n\nThen, construct the ggplot,\n\n\nfriends2 %&gt;% ggplot(aes(x = stealth_score, y = alerts_triggered)) +\n  geom_point(size = 3) +\n  geom_line(aes(y = p_mickey, color = \"Mickey\")) +\n  geom_line(aes(y = p_donald, color = \"Donald\")) +\n  geom_line(aes(y = p_goofy,  color = \"Goofy\")) +\n  geom_line(aes(y = p_minnie, color = \"Minnie\")) +\n  labs(x = \"Stealth Score\",\n       y = \"Expected Number of Alerts Triggered\",\n       color = \"Character\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-6",
+    "href": "lectures/10-1-bayesian-gzlm.html#example-negative-binomial-6",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial"
+  },
+  {
+    "objectID": "lectures/10-1-bayesian-gzlm.html#wrap-up",
+    "href": "lectures/10-1-bayesian-gzlm.html#wrap-up",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Wrap Up",
+    "text": "Wrap Up\n\nBinary logistic regression is used for binary outcomes (e.g., success/failure).\nRecall we also have\n\nOrdinal logistic regression \\to for ordered categorical outcomes (e.g., low/medium/high).\nMultinomial logistic regression \\to for unordered categorical outcomes (e.g., red/blue/green).\n\nPoisson and negative binomial regressions are used to model count data.\n\nPoisson: mean = variance.\nNegative binomial: variance &gt; mean (overdispersion)."
+  },
+  {
     "objectID": "lectures/07-1-bayesian-glm.html#introduction",
     "href": "lectures/07-1-bayesian-glm.html#introduction",
     "title": "GLM in the Bayesian Framework",
@@ -228,7 +543,7 @@
     "href": "lectures/07-1-bayesian-glm.html#working-example-6",
     "title": "GLM in the Bayesian Framework",
     "section": "Working Example",
-    "text": "Working Example\n\nSimulating this model,\n\n\nweather_model_1 &lt;- stan_glm(\n  temp3pm ~ temp9am, \n  data = weather_WU, family = gaussian,\n  prior_intercept = normal(25, 5),\n  prior = normal(0, 2.5, autoscale = TRUE), \n  prior_aux = exponential(1, autoscale = TRUE),\n  chains = 4, iter = 5000*2, seed = 84735)\n\n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 1.2e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.12 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.054 seconds (Warm-up)\nChain 1:                0.096 seconds (Sampling)\nChain 1:                0.15 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 4e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.04 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.053 seconds (Warm-up)\nChain 2:                0.107 seconds (Sampling)\nChain 2:                0.16 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 7e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.059 seconds (Warm-up)\nChain 3:                0.107 seconds (Sampling)\nChain 3:                0.166 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 7e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.058 seconds (Warm-up)\nChain 4:                0.112 seconds (Sampling)\nChain 4:                0.17 seconds (Total)\nChain 4:"
+    "text": "Working Example\n\nSimulating this model,\n\n\nweather_model_1 &lt;- stan_glm(\n  temp3pm ~ temp9am, \n  data = weather_WU, family = gaussian,\n  prior_intercept = normal(25, 5),\n  prior = normal(0, 2.5, autoscale = TRUE), \n  prior_aux = exponential(1, autoscale = TRUE),\n  chains = 4, iter = 5000*2, seed = 84735)\n\n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 1.3e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.13 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.05 seconds (Warm-up)\nChain 1:                0.094 seconds (Sampling)\nChain 1:                0.144 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 7e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.049 seconds (Warm-up)\nChain 2:                0.098 seconds (Sampling)\nChain 2:                0.147 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 7e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.051 seconds (Warm-up)\nChain 3:                0.098 seconds (Sampling)\nChain 3:                0.149 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 7e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.049 seconds (Warm-up)\nChain 4:                0.096 seconds (Sampling)\nChain 4:                0.145 seconds (Total)\nChain 4:"
   },
   {
     "objectID": "lectures/07-1-bayesian-glm.html#working-example-7",
@@ -354,7 +669,7 @@
     "href": "lectures/07-1-bayesian-glm.html#multiple-predictors-3",
     "title": "GLM in the Bayesian Framework",
     "section": "Multiple Predictors",
-    "text": "Multiple Predictors\n\nInstead of starting the stan_glm() syntax from scratch, we can update() the weather_model_3_prior by setting prior_PD = FALSE:\n\n\nweather_model_3 &lt;- update(weather_model_3_prior, prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 1.6e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.16 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.08 seconds (Warm-up)\nChain 1:                0.136 seconds (Sampling)\nChain 1:                0.216 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 7e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.067 seconds (Warm-up)\nChain 2:                0.121 seconds (Sampling)\nChain 2:                0.188 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 6e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.067 seconds (Warm-up)\nChain 3:                0.111 seconds (Sampling)\nChain 3:                0.178 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 5e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.066 seconds (Warm-up)\nChain 4:                0.11 seconds (Sampling)\nChain 4:                0.176 seconds (Total)\nChain 4:"
+    "text": "Multiple Predictors\n\nInstead of starting the stan_glm() syntax from scratch, we can update() the weather_model_3_prior by setting prior_PD = FALSE:\n\n\nweather_model_3 &lt;- update(weather_model_3_prior, prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 1.4e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.14 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.057 seconds (Warm-up)\nChain 1:                0.106 seconds (Sampling)\nChain 1:                0.163 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 5e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.057 seconds (Warm-up)\nChain 2:                0.112 seconds (Sampling)\nChain 2:                0.169 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 6e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.057 seconds (Warm-up)\nChain 3:                0.101 seconds (Sampling)\nChain 3:                0.158 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'continuous' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 5e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.05 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.057 seconds (Warm-up)\nChain 4:                0.101 seconds (Sampling)\nChain 4:                0.158 seconds (Total)\nChain 4:"
   },
   {
     "objectID": "lectures/07-1-bayesian-glm.html#multiple-predictors-4",
@@ -1327,7 +1642,7 @@
     "href": "lectures/06-1-bayesian-inference.html#posterior-prediction-7",
     "title": "Posterior Analysis",
     "section": "Posterior Prediction",
-    "text": "Posterior Prediction\n\n# STEP 2: SIMULATE the posterior\nart_sim &lt;- stan(model_code = art_model, \n                data = list(Y = 14),  \n                chains = 4, \n                iter = 5000*2, \n                seed = 84735)\n\n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 3e-06 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.011 seconds (Warm-up)\nChain 1:                0.011 seconds (Sampling)\nChain 1:                0.022 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 0 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.011 seconds (Warm-up)\nChain 2:                0.012 seconds (Sampling)\nChain 2:                0.023 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 0 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.011 seconds (Warm-up)\nChain 3:                0.012 seconds (Sampling)\nChain 3:                0.023 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 0 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.01 seconds (Warm-up)\nChain 4:                0.01 seconds (Sampling)\nChain 4:                0.02 seconds (Total)\nChain 4:"
+    "text": "Posterior Prediction\n\n# STEP 2: SIMULATE the posterior\nart_sim &lt;- stan(model_code = art_model, \n                data = list(Y = 14),  \n                chains = 4, \n                iter = 5000*2, \n                seed = 84735)\n\n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 2e-06 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.02 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.009 seconds (Warm-up)\nChain 1:                0.009 seconds (Sampling)\nChain 1:                0.018 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 1e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.01 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.009 seconds (Warm-up)\nChain 2:                0.01 seconds (Sampling)\nChain 2:                0.019 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 0 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.009 seconds (Warm-up)\nChain 3:                0.009 seconds (Sampling)\nChain 3:                0.018 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 0 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.009 seconds (Warm-up)\nChain 4:                0.009 seconds (Sampling)\nChain 4:                0.018 seconds (Total)\nChain 4:"
   },
   {
     "objectID": "lectures/06-1-bayesian-inference.html#posterior-prediction-8",
@@ -1971,7 +2286,7 @@
     "href": "lectures/05-1-approx-posterior.html#using-rstan-3",
     "title": "Approximating the Posterior",
     "section": "Using rstan",
-    "text": "Using rstan\n\n# STEP 2: simulate the posterior\nbb_sim &lt;- stan(model_code = bb_model, data = list(Y = 9), \n               chains = 4, iter = 5000*2, seed = 84735)\n\n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 3e-06 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.012 seconds (Warm-up)\nChain 1:                0.013 seconds (Sampling)\nChain 1:                0.025 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 0 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.011 seconds (Warm-up)\nChain 2:                0.013 seconds (Sampling)\nChain 2:                0.024 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 0 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.012 seconds (Warm-up)\nChain 3:                0.011 seconds (Sampling)\nChain 3:                0.023 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 1e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.01 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.012 seconds (Warm-up)\nChain 4:                0.013 seconds (Sampling)\nChain 4:                0.025 seconds (Total)\nChain 4:"
+    "text": "Using rstan\n\n# STEP 2: simulate the posterior\nbb_sim &lt;- stan(model_code = bb_model, data = list(Y = 9), \n               chains = 4, iter = 5000*2, seed = 84735)\n\n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 3e-06 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.03 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.01 seconds (Warm-up)\nChain 1:                0.011 seconds (Sampling)\nChain 1:                0.021 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 0 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.01 seconds (Warm-up)\nChain 2:                0.011 seconds (Sampling)\nChain 2:                0.021 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 0 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.009 seconds (Warm-up)\nChain 3:                0.009 seconds (Sampling)\nChain 3:                0.018 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'anon_model' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 1e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.01 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.009 seconds (Warm-up)\nChain 4:                0.011 seconds (Sampling)\nChain 4:                0.02 seconds (Total)\nChain 4:"
   },
   {
     "objectID": "lectures/05-1-approx-posterior.html#using-rstan-4",
@@ -3519,5 +3834,320 @@
     "title": "Thinking Like a Bayesian(Part 2)",
     "section": "Wrap Up",
     "text": "Wrap Up\n\nToday we learned how to, in general, approach Bayesian analysis.\nYou now are ready to work on Assignment 1: Thinking Like a Bayesian.\n\n.qmd file is available to download on Canvas.\n\nWednesday: Beta-binomial\nNext week:\n\nGamma-Poisson\nNormal Normal"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#introduction",
+    "href": "10-1-bayesian-gzlm.html#introduction",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nLast week, we focused on linear regression appropriate for continuous outcomes that are approximately normally distributed.\n\n\n\\hat{y}_i = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nInterpretation of \\hat{\\beta}_0 (y-intercept): The expected value of y when all predictors are equal to zero.\nInterpretation of \\hat{\\beta}_i (slopes): The expected change in y for a one-unit increase in x_i, holding all other predictors constant."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#introduction-1",
+    "href": "10-1-bayesian-gzlm.html#introduction-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nToday we will cover binary logistic regression.\nCategorical data: Logistic\n\n\n\\ln\\left(\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}\\right) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nCount data: Poisson/negative binomial\n\n\n\\ln(\\hat{y}) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#introduction-2",
+    "href": "10-1-bayesian-gzlm.html#introduction-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nWithout going into statistical theory, the left hand side of the equation is affected by the model’s link function.\n\nNormal: Identity link\n\nWe are modeling y directly\n\nLogistic: Logit link\n\nWe are modeling the logit of \\pi\n\nPoisson/Negative Binomial: Log link\n\nWe are modeling the log of y"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#introduction-3",
+    "href": "10-1-bayesian-gzlm.html#introduction-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nThe left hand side dictates how we provide interpretations.\n\nIf we are not modeling y directly, we need to transform back to the original scale for interpretation purposes.\n\nThere are other link functions that can be used in generalized linear models, as long as the model converges.\n\nWhen done, it is to transform the left hand side to be more interpretable.\n\nRemember that if we have \\ln() on the left hand side, we can exponentiate to get back to the original scale.\n\nThis means that our interpretations will be in terms of multiplicative changes rather than additive changes.\nFor each increase in x, we will multiply the left hand side by some factor rather than add some amount to it."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example",
+    "href": "10-1-bayesian-gzlm.html#example",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nMickey Mouse and his friends have been organizing a series of rescue missions around the clubhouse. Each mission is led by one of four possible leaders (Mickey, Minnie, Donald, or Goofy) and the goal is to determine which factors make a mission most likely to succeed.\nFor each mission, the team records:\n\nmission_success: whether the rescue mission succeeded (1) or failed (0),\ncharacter: the leader of the mission (Mickey, Minnie, Donald, or Goofy), and\nstealth_score: a numerical measure (0–10) of how quietly and carefully the mission was executed; higher values indicate more stealthy, well-coordinated missions.\n\nLet’s now set up a logistic regression to predict mission success as a function of who led the mission, the stealth score, and the interaction between the two. In R, our model will be\n\n\n\\text{mission\\_success} \\sim \\text{character} + \\text{stealth\\_score} + \\text{character}:\\text{stealth\\_score}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-1",
+    "href": "10-1-bayesian-gzlm.html#example-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nRunning the model,\n\n\nmickey_model &lt;- stan_glm(mission_success ~ character + stealth_score + character:stealth_score,\n                         data = mickey, \n                         family = binomial,\n                         prior_intercept = normal(0, 1, autoscale = TRUE),\n                         prior = normal(0, 1, autoscale = TRUE),\n                         chains = 4, iter = 5000*2, seed = 8716,\n                         prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 3.5e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.35 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.319 seconds (Warm-up)\nChain 1:                0.32 seconds (Sampling)\nChain 1:                0.639 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 7e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.326 seconds (Warm-up)\nChain 2:                0.333 seconds (Sampling)\nChain 2:                0.659 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 6e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.311 seconds (Warm-up)\nChain 3:                0.356 seconds (Sampling)\nChain 3:                0.667 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'bernoulli' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 6e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.316 seconds (Warm-up)\nChain 4:                0.38 seconds (Sampling)\nChain 4:                0.696 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-2",
+    "href": "10-1-bayesian-gzlm.html#example-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nExamining the results,\n\n\ntidy(mickey_model, conf.int = TRUE)\n\n\n\n\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n0.4414265\n1.1264874\n-1.3942267\n2.2894159\n\n\ncharacterDonald\n-1.4442206\n1.4444003\n-3.8256554\n0.9512398\n\n\ncharacterGoofy\n-0.6628119\n1.2514275\n-2.7259029\n1.4028188\n\n\ncharacterMinnie\n1.7406833\n1.5242655\n-0.6741884\n4.3130432\n\n\nstealth_score\n0.2095191\n0.1844345\n-0.0874952\n0.5182348\n\n\ncharacterDonald:stealth_score\n0.2929386\n0.2583728\n-0.1147628\n0.7324733\n\n\ncharacterGoofy:stealth_score\n-0.0583538\n0.2047462\n-0.3979333\n0.2784479\n\n\ncharacterMinnie:stealth_score\n0.1376708\n0.2508587\n-0.2721842\n0.5599432"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-3",
+    "href": "10-1-bayesian-gzlm.html#example-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nThis results in the model,\n\n\n\\begin{align*}\n\\ln\\left(\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}\\right) =& \\  -0.193  \\\\\n& \\ -1.005 \\text{ Donald} + 0.228 \\text{ Goofy} + 1.917 \\text{ Minnie} + 0.296 \\text{ stealth} \\  \\\\\n& \\ + 0.185 \\text{ Donald} \\times \\text{stealth} -0.198 \\text{ Goofy}\\times \\text{stealth} \\\\\n& \\ \\ \\ \\ \\ \\ +  0.403 \\text{ Minnie} \\times \\text{stealth}\n\\end{align*}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-4",
+    "href": "10-1-bayesian-gzlm.html#example-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nInterpreting the coefficients:\n\nIntercept (\\hat{\\beta}_0): The log-odds of mission success when Mickey leads (reference category) and the stealth score is 0.\nCharacter coefficients (\\hat{\\beta}_1, \\hat{\\beta}_2, \\hat{\\beta}_3): The change in log-odds of mission success when Minnie, Donald, or Goofy lead, respectively, compared to Mickey, holding stealth score constant.\nStealth score coefficient (\\hat{\\beta}_4): The change in log-odds of mission success for a one-unit increase in stealth score when Mickey leads.\nInteraction coefficients (\\hat{\\beta}_5, \\hat{\\beta}_6, \\hat{\\beta}_7): The additional change in log-odds of mission success for a one-unit increase in stealth score when Minnie, Donald, or Goofy lead, respectively, compared to Mickey."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-5",
+    "href": "10-1-bayesian-gzlm.html#example-5",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nWhat if we want to separate into individual models for each friend?"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-6",
+    "href": "10-1-bayesian-gzlm.html#example-6",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nDonald’s model:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-7",
+    "href": "10-1-bayesian-gzlm.html#example-7",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nGoofy’s model:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-8",
+    "href": "10-1-bayesian-gzlm.html#example-8",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nMinnie’s model:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-9",
+    "href": "10-1-bayesian-gzlm.html#example-9",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nMickey’s model:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#odds-ratios",
+    "href": "10-1-bayesian-gzlm.html#odds-ratios",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Odds Ratios",
+    "text": "Odds Ratios\n\nRecall that we do not want to interpret in terms of the log odds (i.e., in terms of)\n\n\n\\ln\\left(\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}\\right)\n\n\nInstead, we want to interpret in terms of the odds themselves (i.e., in terms of)\n\n\n\\frac{\\hat{\\pi}}{1-\\hat{\\pi}}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#odds-ratios-1",
+    "href": "10-1-bayesian-gzlm.html#odds-ratios-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Odds Ratios",
+    "text": "Odds Ratios\n\nTo convert from log-odds to odds, we exponentiate the coefficients.\n\n\n\\text{odds ratio}_i = \\exp\\{ \\hat{\\beta}_i \\}\n\n\nNote (1), if we are reporting odds ratios rather than \\hat{\\beta}_i, then:\n\nAn odds ratio of 1 \\to no effect.\nAn odds ratio greater than 1 \\to increase in odds.\nAn odds ratio less than 1 \\to decrease in odds.\n\nNote (2), if we are reporting odds ratios rather than \\hat{\\beta}_i, then we also want to report the intervals for the odds ratios and not the intervals for \\hat{\\beta}_i."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-10",
+    "href": "10-1-bayesian-gzlm.html#example-10",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nWe can request OR and their corresponding CI this out of tidy(),\n\n\ntidy(mickey_model, conf.int = TRUE, exponentiate = TRUE)\n\n\n\n\n\n\n\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n1.5549237\n1.7516020\n0.2480248\n9.869171\n\n\ncharacterDonald\n0.2359299\n0.3407772\n0.0218041\n2.588917\n\n\ncharacterGoofy\n0.5154001\n0.6449858\n0.0654870\n4.066647\n\n\ncharacterMinnie\n5.7012375\n8.6901996\n0.5095698\n74.667375\n\n\nstealth_score\n1.2330849\n0.2274235\n0.9162232\n1.679061\n\n\ncharacterDonald:stealth_score\n1.3403604\n0.3463127\n0.8915776\n2.080219\n\n\ncharacterGoofy:stealth_score\n0.9433162\n0.1931404\n0.6717068\n1.321078\n\n\ncharacterMinnie:stealth_score\n1.1475977\n0.2878848\n0.7617139\n1.750573"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#odds-ratios-2",
+    "href": "10-1-bayesian-gzlm.html#odds-ratios-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Odds Ratios",
+    "text": "Odds Ratios\n\nBut… we have an interaction in our model?\nWe can take the same approach as finding the individual slopes!\n\nTake the bounds and add/subtract as necessary.\n\nRemember that we need to add on the original scale, not the converted odds ratios."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-11",
+    "href": "10-1-bayesian-gzlm.html#example-11",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nLet’s look at our model results, but only look at the CI results for stealth score and the interactions.\n\n\ntidy(mickey_model, conf.int = TRUE) %&gt;% \n  select(term, conf.low, conf.high) %&gt;%\n  filter(str_detect(term, \"stealth\")) \n\n\n\n\n\nterm\nconf.low\nconf.high\n\n\n\n\nstealth_score\n-0.0874952\n0.5182348\n\n\ncharacterDonald:stealth_score\n-0.1147628\n0.7324733\n\n\ncharacterGoofy:stealth_score\n-0.3979333\n0.2784479\n\n\ncharacterMinnie:stealth_score\n-0.2721842\n0.5599432"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-12",
+    "href": "10-1-bayesian-gzlm.html#example-12",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nFor Mickey,\n\nLB: .000111\nUB: 0.6076\n\nFor Donald,\n\nLB: .000111 - 0.2135 = -0.2134\nUB: 0.6076 + 0.5965 = 1.2041\n\nFor Goofy,\n\nLB: .000111 - 0.5299 = -0.5298\nUB: 0.6076 + 0.1372 = 0.7448\n\nFor Minnie,\n\nLB: .000111 - 0.2653 = -0.2652\nUB: 0.6076 + 0.5519 = 1.1595"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-13",
+    "href": "10-1-bayesian-gzlm.html#example-13",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nComparing side by side with CI for OR,\n\n\n\n\nFriend\nCI for \\beta\nCI for OR\n\n\n\n\nMickey\n(0.000111, 0.6076)\n(1.00, 1.84)\n\n\nDonald\n(-0.2134, 1.204)\n(0.81, 3.33)\n\n\nGoofy\n(-0.5298, 0.7448)\n(0.59, 2.11)\n\n\nMinnie\n(-0.2652, 1.1595)\n(0.77, 3.19)"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-14",
+    "href": "10-1-bayesian-gzlm.html#example-14",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nHow would I report the results in a table?\n\n\n\n\nFriend\nOR (95% CI for OR)\n\n\n\n\nMickey\n1.23 (1.00, 1.84)\n\n\nDonald\n1.62 (0.81, 3.33)\n\n\nGoofy\n1.11 (0.59, 2.11)\n\n\nMinnie\n1.53 (0.77, 3.19)\n\n\n\n\nFor all characters, as stealth score increases, the odds of mission success increase.\nThe strength of this effect varies by character, but the 95% CIs for all characters include 1, indicating a null effect."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#visualizing-the-model",
+    "href": "10-1-bayesian-gzlm.html#visualizing-the-model",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Visualizing the Model",
+    "text": "Visualizing the Model\n\nWe can put together a data visualization to help us understand what’s going on in our model.\nIn this example, we will have strength on the x-axis and define lines by the friend.\n\ni.e., I am graphing the individual models we saw earlier.\n\nFirst, we have to find predicted values,\n\n\nmickey &lt;- mickey %&gt;%\n  mutate(p_mickey = exp(-0.193 + 0.296*stealth_score) / (1+exp(-0.193 + 0.296*stealth_score)),\n         p_minnie = exp(1.724 + 0.426*stealth_score) / (1+exp(1.724 + 0.426*stealth_score)),\n         p_donald = exp(-1.198 + 0.481*stealth_score) / (1+exp(-1.198 + 0.481*stealth_score)),\n         p_goofy  = exp(0.035 + 0.101*stealth_score) / (1+exp(0.035 + 0.101*stealth_score)))"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-15",
+    "href": "10-1-bayesian-gzlm.html#example-15",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example\n\nThen, we can graph using these predicted values\n\n\nmickey %&gt;% ggplot(aes(x = stealth_score, y = mission_success)) +\n  geom_point(size = 3) +\n  geom_line(aes(y = p_mickey, color = \"black\")) +\n  geom_line(aes(y = p_minnie, color = \"red\")) +\n  geom_line(aes(y = p_donald, color = \"blue\")) +\n  geom_line(aes(y = p_goofy, color = \"green\")) +\n  labs(x = \"Stealth Score\",\n       y = \"Probability of Mission Success\",\n       color = \"Leader\") +\n  scale_color_manual(labels = c(\"Mickey\", \"Minnie\", \"Donald\", \"Goofy\"),\n                     values = c(\"black\", \"red\", \"blue\", \"green\")) +\n  theme_bw()"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-16",
+    "href": "10-1-bayesian-gzlm.html#example-16",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#introduction-4",
+    "href": "10-1-bayesian-gzlm.html#introduction-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Introduction",
+    "text": "Introduction\n\nContinuous data: Linear\n\n\n\\hat{y_i} = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nCategorical data: Logistic\n\n\n\\ln\\left(\\frac{\\hat{\\pi_i}}{1-\\hat{\\pi_i}}\\right) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}\n\n\nCount data: Poisson/negative binomial\n\n\n\\ln(\\hat{y}_i) = \\hat{\\beta}_0 + \\hat{\\beta}_1 x_{i1} + \\hat{\\beta}_2 x_{i2} + ... + \\hat{\\beta}_k x_{ik}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#poisson-regression",
+    "href": "10-1-bayesian-gzlm.html#poisson-regression",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Poisson Regression",
+    "text": "Poisson Regression\n\nGeneric code for Poisson regression:\n\n\nposterior_model &lt;- stan_glm(y ~ x1 + x2 + ... + xk, \n                            data = dataset_name, \n                            family = poisson,\n                            prior_intercept = normal(0, 1, autoscale = TRUE),\n                            prior = normal(0, 1, autoscale = TRUE), \n                            chains = 4, iter = 5000*2, seed = 84735, \n                            prior_PD = FALSE)"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-set-up",
+    "href": "10-1-bayesian-gzlm.html#example-set-up",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Set Up",
+    "text": "Example: Set Up\n\nAfter a few successful rescue missions, Mickey Mouse and his friends noticed something strange: every time they set out on a new mission, the number of alert beacons that went off around the clubhouse varied. Sometimes the team moved silently, but other times the entire operation echoed with crashes, clanks, and Donald’s famous quacking. To understand what’s going on, the team started tracking three pieces of information for each mission:\n\nalerts_triggered: the number of alert beacons that went off during the mission (possible values: 0, 1, 2, 3, …).\ncharacter: which character led the mission (Mickey, Minnie, Donald, or Goofy).\nstealth_score: how carefully the team tried to move on a scale from 0 to 10, where higher values mean a quieter, more careful mission."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson",
+    "href": "10-1-bayesian-gzlm.html#example-poisson",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\npoisson_posterior &lt;- stan_glm(alerts_triggered ~ character + stealth_score, \n                            data = friends, \n                            family = poisson,\n                            prior_intercept = normal(0, 1, autoscale = TRUE),\n                            prior = normal(0, 1, autoscale = TRUE), \n                            chains = 4, iter = 5000*2, seed = 84735, \n                            prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 1.6e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.16 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.126 seconds (Warm-up)\nChain 1:                0.151 seconds (Sampling)\nChain 1:                0.277 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 7e-06 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.129 seconds (Warm-up)\nChain 2:                0.153 seconds (Sampling)\nChain 2:                0.282 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 6e-06 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.06 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.131 seconds (Warm-up)\nChain 3:                0.142 seconds (Sampling)\nChain 3:                0.273 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 7e-06 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.07 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.128 seconds (Warm-up)\nChain 4:                0.152 seconds (Sampling)\nChain 4:                0.28 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson-1",
+    "href": "10-1-bayesian-gzlm.html#example-poisson-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nExamining the results,\n\n\ntidy(poisson_posterior, conf.int = TRUE, exponentiate = FALSE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n1.0819361\n0.2610216\n0.6485256\n1.5011017\n\n\ncharacterDonald\n-0.0304708\n0.1993844\n-0.3599919\n0.3003308\n\n\ncharacterGoofy\n-0.1411428\n0.1974020\n-0.4685098\n0.1875543\n\n\ncharacterMinnie\n-0.5974829\n0.2404799\n-0.9991978\n-0.2017999\n\n\nstealth_score\n-0.1316629\n0.0382823\n-0.1941604\n-0.0697889\n\n\n\n\n\n\n\n\\ln(\\hat{y}) = 1.48 + 0.51 \\text{ Donald} + 0.26 \\text{ Goofy} - 0.58 \\text{ Minnie} - 0.24 \\text{ stealth}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson-2",
+    "href": "10-1-bayesian-gzlm.html#example-poisson-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nWe are interested in the multiplicative effect on the expected count, so we exponentiate the coefficients and credible intervals:\n\n\ntidy(poisson_posterior, conf.int = TRUE, exponentiate = TRUE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n2.9503863\n0.7701144\n1.9127186\n4.4866294\n\n\ncharacterDonald\n0.9699888\n0.1934007\n0.6976820\n1.3503054\n\n\ncharacterGoofy\n0.8683653\n0.1714170\n0.6259344\n1.2062958\n\n\ncharacterMinnie\n0.5501948\n0.1323108\n0.3681747\n0.8172584\n\n\nstealth_score\n0.8766365\n0.0335597\n0.8235258\n0.9325907"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson-3",
+    "href": "10-1-bayesian-gzlm.html#example-poisson-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nHow would I report the results in a table?\n\n\n\n\nPredictor\nIRR (95% CI)\n\n\n\n\nDonald\n1.67 (1.21, 2.30)\n\n\nGoofy\n1.30 (0.95, 1.80)\n\n\nMinnie\n0.56 (0.36, 0.85)\n\n\nStealth\n0.79 (0.75, 0.84)"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson-4",
+    "href": "10-1-bayesian-gzlm.html#example-poisson-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nIncident Rate Ratios (IRR): multiplicative effect on the expected count for a one unit increase in the predictor, holding other predictors constant.\nAs compared to Mickey,\n\nDonald is expected to trigger 1.67 times as many alerts (67% more).\nGoofy is expected to trigger 1.30 times as many alerts (30% more).\nMinnie is expected to trigger 0.56 times as many alerts (44% fewer).\n\nAs stealth score increases, the expected number of alerts triggered decreases.\n\nFor a one-unit increase in stealth-score, the expected number of alerts triggered decreases by 21%."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson-5",
+    "href": "10-1-bayesian-gzlm.html#example-poisson-5",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson\n\nTo visualize our model, we first find predicted values,\n\n\nfriends &lt;- friends %&gt;%\n  mutate(p_mickey = exp(1.48-0.235*stealth_score),\n         p_donald = exp(1.48+0.51-0.235*stealth_score),\n         p_goofy  = exp(1.48+0.26-0.235*stealth_score),\n         p_minnie = exp(1.48-0.58-0.235*stealth_score))\n\n\nThen, construct the ggplot,\n\n\nfriends %&gt;% ggplot(aes(x = stealth_score, y = alerts_triggered)) +\n  geom_point(size = 3) +\n  geom_line(aes(y = p_mickey, color = \"Mickey\")) +\n  geom_line(aes(y = p_donald, color = \"Donald\")) +\n  geom_line(aes(y = p_goofy,  color = \"Goofy\")) +\n  geom_line(aes(y = p_minnie, color = \"Minnie\")) +\n  labs(x = \"Stealth Score\",\n       y = \"Expected Number of Alerts Triggered\",\n       color = \"Character\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-poisson-6",
+    "href": "10-1-bayesian-gzlm.html#example-poisson-6",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Poisson",
+    "text": "Example: Poisson"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#negative-binomial-regression",
+    "href": "10-1-bayesian-gzlm.html#negative-binomial-regression",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Negative Binomial Regression",
+    "text": "Negative Binomial Regression\n\nGeneric code for negative binomial regression:\n\n\nposterior_model &lt;- stan_glm(y ~ x1 + x2 + ... + xk, \n                            data = dataset_name, \n                            family = neg_binomial_2,\n                            prior_intercept = normal(0, 1, autoscale = TRUE),\n                            prior = normal(0, 1, autoscale = TRUE), \n                            chains = 4, iter = 5000*2, seed = 84735, \n                            prior_PD = FALSE)"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-set-up-1",
+    "href": "10-1-bayesian-gzlm.html#example-set-up-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Set Up",
+    "text": "Example: Set Up\n\nAfter weeks of studying the clubhouse rescue missions, Mickey and friends have noticed a problem: some missions are wildly unpredictable. When Donald Duck takes charge, the number of alert beacons that go off during a mission varies dramatically. On some days, his missions are surprisingly quiet. On others, Donald’s shouting and tripping set off nearly every beacon in the clubhouse!\n\n\nfriends2 %&gt;% summarize(mean(alerts_triggered),\n                       var(alerts_triggered))\n\n\n\n\n\nmean(alerts_triggered)\nvar(alerts_triggered)\n\n\n\n\n1.406667\n2.752975\n\n\n\n\n\n\n\nWe can see that the mean and variance do not meet the assumption for the Poisson distribution."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nnegbin_posterior &lt;- stan_glm(alerts_triggered ~ character + stealth_score, \n                             data = friends2, \n                             family = neg_binomial_2,\n                             prior_intercept = normal(0, 1, autoscale = TRUE),\n                             prior = normal(0, 1, autoscale = TRUE), \n                             chains = 4, iter = 5000*2, seed = 84735, \n                             prior_PD = FALSE)\n\n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 1).\nChain 1: \nChain 1: Gradient evaluation took 2.2e-05 seconds\nChain 1: 1000 transitions using 10 leapfrog steps per transition would take 0.22 seconds.\nChain 1: Adjust your expectations accordingly!\nChain 1: \nChain 1: \nChain 1: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 1: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 1: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 1: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 1: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 1: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 1: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 1: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 1: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 1: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 1: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 1: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 1: \nChain 1:  Elapsed Time: 0.269 seconds (Warm-up)\nChain 1:                0.412 seconds (Sampling)\nChain 1:                0.681 seconds (Total)\nChain 1: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 2).\nChain 2: \nChain 2: Gradient evaluation took 1.1e-05 seconds\nChain 2: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.\nChain 2: Adjust your expectations accordingly!\nChain 2: \nChain 2: \nChain 2: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 2: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 2: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 2: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 2: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 2: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 2: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 2: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 2: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 2: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 2: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 2: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 2: \nChain 2:  Elapsed Time: 0.278 seconds (Warm-up)\nChain 2:                0.335 seconds (Sampling)\nChain 2:                0.613 seconds (Total)\nChain 2: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 3).\nChain 3: \nChain 3: Gradient evaluation took 1.1e-05 seconds\nChain 3: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.\nChain 3: Adjust your expectations accordingly!\nChain 3: \nChain 3: \nChain 3: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 3: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 3: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 3: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 3: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 3: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 3: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 3: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 3: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 3: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 3: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 3: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 3: \nChain 3:  Elapsed Time: 0.276 seconds (Warm-up)\nChain 3:                0.377 seconds (Sampling)\nChain 3:                0.653 seconds (Total)\nChain 3: \n\nSAMPLING FOR MODEL 'count' NOW (CHAIN 4).\nChain 4: \nChain 4: Gradient evaluation took 1.1e-05 seconds\nChain 4: 1000 transitions using 10 leapfrog steps per transition would take 0.11 seconds.\nChain 4: Adjust your expectations accordingly!\nChain 4: \nChain 4: \nChain 4: Iteration:    1 / 10000 [  0%]  (Warmup)\nChain 4: Iteration: 1000 / 10000 [ 10%]  (Warmup)\nChain 4: Iteration: 2000 / 10000 [ 20%]  (Warmup)\nChain 4: Iteration: 3000 / 10000 [ 30%]  (Warmup)\nChain 4: Iteration: 4000 / 10000 [ 40%]  (Warmup)\nChain 4: Iteration: 5000 / 10000 [ 50%]  (Warmup)\nChain 4: Iteration: 5001 / 10000 [ 50%]  (Sampling)\nChain 4: Iteration: 6000 / 10000 [ 60%]  (Sampling)\nChain 4: Iteration: 7000 / 10000 [ 70%]  (Sampling)\nChain 4: Iteration: 8000 / 10000 [ 80%]  (Sampling)\nChain 4: Iteration: 9000 / 10000 [ 90%]  (Sampling)\nChain 4: Iteration: 10000 / 10000 [100%]  (Sampling)\nChain 4: \nChain 4:  Elapsed Time: 0.263 seconds (Warm-up)\nChain 4:                0.326 seconds (Sampling)\nChain 4:                0.589 seconds (Total)\nChain 4:"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial-1",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial-1",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\ntidy(negbin_posterior, conf.int = TRUE, exponentiate = FALSE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n1.3944070\n0.3309170\n0.8593790\n1.9491141\n\n\ncharacterDonald\n-0.0972187\n0.2512058\n-0.5127541\n0.3171353\n\n\ncharacterGoofy\n0.0769120\n0.2470158\n-0.3405052\n0.4914605\n\n\ncharacterMinnie\n-1.2007545\n0.2948534\n-1.7034845\n-0.7247421\n\n\nstealth_score\n-0.1457349\n0.0467810\n-0.2261993\n-0.0685119\n\n\n\n\n\n\n\n\\ln(\\hat{y}) = 1.39 - 0.10 \\text{ Donald} + 0.08 \\text{ Goofy} - 1.20 \\text{ Minnie} - 0.15 \\text{ stealth}"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial-2",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial-2",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nWe are interested in the multiplicative effect on the expected count, so we exponentiate the coefficients and credible intervals:\n\n\ntidy(negbin_posterior, conf.int = TRUE, exponentiate = TRUE)\n\n\n\n\n\nterm\nestimate\nstd.error\nconf.low\nconf.high\n\n\n\n\n(Intercept)\n4.0325824\n1.3344501\n2.3616937\n7.0224637\n\n\ncharacterDonald\n0.9073575\n0.2279334\n0.5988440\n1.3731883\n\n\ncharacterGoofy\n1.0799470\n0.2667639\n0.7114109\n1.6347020\n\n\ncharacterMinnie\n0.3009670\n0.0887412\n0.1820481\n0.4844495\n\n\nstealth_score\n0.8643868\n0.0404368\n0.7975592\n0.9337823"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial-3",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial-3",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nHow would I report the results in a table?\n\n\n\n\nPredictor\nIRR (95% CI)\n\n\n\n\nDonald\n0.91 (0.60, 1.37)\n\n\nGoofy\n1.08 (0.71, 1.63)\n\n\nMinnie\n0.30 (0.18, 0.48)\n\n\nStealth\n0.86 (0.80, 0.93)"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial-4",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial-4",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nIncident Rate Ratios (IRR): multiplicative effect on the expected count for a one unit increase in the predictor, holding other predictors constant.\nAs compared to Mickey,\n\nDonald is expected to trigger 0.91 times as many alerts (9% fewer).\nGoofy is expected to trigger 1.08 times as many alerts (8% increase).\nMinnie is expected to trigger 0.30 times as many alerts (70% fewer).\n\nAs stealth score increases, the expected number of alerts triggered decreases.\n\nFor a one-unit increase in stealth-score, the expected number of alerts triggered decreases by 14%."
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial-5",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial-5",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial\n\nTo visualize our model, we first find predicted values,\n\n() = 1.39 - 0.10 + 0.08 - 1.20 - 0.15 \n\nfriends2 &lt;- friends2 %&gt;%\n  mutate(p_mickey = exp(1.39 - 0.15*stealth_score),\n         p_donald = exp(1.39 - 0.10 -0.15*stealth_score),\n         p_goofy  = exp(1.39 + 0.08 -0.15*stealth_score),\n         p_minnie = exp(1.39 - 1.20 -0.15*stealth_score))\n\n\nThen, construct the ggplot,\n\n\nfriends2 %&gt;% ggplot(aes(x = stealth_score, y = alerts_triggered)) +\n  geom_point(size = 3) +\n  geom_line(aes(y = p_mickey, color = \"Mickey\")) +\n  geom_line(aes(y = p_donald, color = \"Donald\")) +\n  geom_line(aes(y = p_goofy,  color = \"Goofy\")) +\n  geom_line(aes(y = p_minnie, color = \"Minnie\")) +\n  labs(x = \"Stealth Score\",\n       y = \"Expected Number of Alerts Triggered\",\n       color = \"Character\") +\n  theme_bw()"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#example-negative-binomial-6",
+    "href": "10-1-bayesian-gzlm.html#example-negative-binomial-6",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Example: Negative Binomial",
+    "text": "Example: Negative Binomial"
+  },
+  {
+    "objectID": "10-1-bayesian-gzlm.html#wrap-up",
+    "href": "10-1-bayesian-gzlm.html#wrap-up",
+    "title": "GzLM in the Bayesian Framework",
+    "section": "Wrap Up",
+    "text": "Wrap Up\n\nBinary logistic regression is used for binary outcomes (e.g., success/failure).\nRecall we also have\n\nOrdinal logistic regression \\to for ordered categorical outcomes (e.g., low/medium/high).\nMultinomial logistic regression \\to for unordered categorical outcomes (e.g., red/blue/green).\n\nPoisson and negative binomial regressions are used to model count data.\n\nPoisson: mean = variance.\nNegative binomial: variance &gt; mean (overdispersion)."
   }
 ]
